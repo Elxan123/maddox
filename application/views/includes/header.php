@@ -101,32 +101,33 @@
                             <div class="menu">
                                 <nav id="main-menu" class="main-menu">
                                     <ul>
-                                        <li><a href="<?php echo base_url("public") ?>/index-2.html">Home <i class="icofont-caret-down"></i></a>
+                                        <li><a href="<?php echo base_url("public") ?>/index-2.html">Home <i ></i></a>
+
+                                        </li>
+                                        <li><a href="<?php echo base_url("public") ?>/project.html">Activities<i class="icofont-caret-down"></i></a>
                                             <ul>
-                                                <li><a href="<?php echo base_url("public") ?>/index-2.html">Home V1</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/index-3.html">Home V2</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/project.html">Trading</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/project.html">Crude Oil</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/project.html">Refined Petroleum Products</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/project.html">Supply of End-Consumer Markets</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/project.html">Domestic Downstream Operations</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/project.html">Bunkering Business</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/project-details.html">Our Activites</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="<?php echo base_url("public") ?>/project.html">project <i class="icofont-caret-down"></i></a>
+                                        <li><a href="<?php echo base_url("public") ?>/service-1.html">About<i class="icofont-caret-down"></i></a>
                                             <ul>
-                                                <li><a href="<?php echo base_url("public") ?>/project.html">project Page</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/project-details.html">project Details</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/service-1.html">Our History</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/service-2.html">Our Presences</a></li>
+
                                             </ul>
                                         </li>
-                                        <li><a href="<?php echo base_url("public") ?>/service-1.html">Service <i class="icofont-caret-down"></i></a>
+                                        <li><a href="<?php echo base_url("public") ?>/employees.html">Risk Management</a></li>
+                                        <li><a href="<?php echo base_url("public") ?>/blog-classic.html">Our Values<i class="icofont-caret-down"></i></a>
                                             <ul>
-                                                <li><a href="<?php echo base_url("public") ?>/service-1.html">Service 1</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/service-2.html">Service 2</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/service-details.html">Service details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="<?php echo base_url("public") ?>/employees.html">employees</a></li>
-                                        <li><a href="<?php echo base_url("public") ?>/blog-classic.html">Blog <i class="icofont-caret-down"></i></a>
-                                            <ul>
-                                                <li><a href="<?php echo base_url("public") ?>/blog-classic.html">Blog classic</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/blog-3-column.html">Blog 3 column</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/blog-2-column-sidebar.html">Blog column & sidebar</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/blog-details.html">Blog Details</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/blog-classic.html">Compliance</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/blog-3-column.html">Governance</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/blog-2-column-sidebar.html">Social Responsiblity</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="<?php echo base_url("public") ?>/contact.html">Contact Us</a></li>
