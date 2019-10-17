@@ -469,21 +469,7 @@
 							<div class="contact-title-border"></div>
 						</div>						
 						<div class="contact-field">
-							<div class="single-input-field">
-								<input type="text" placeholder="Name"/>
-							</div>	
-							<div class="single-input-field">
-								<input type="email" placeholder="Email"/>
-							</div>								
-							<div class="single-input-field">
-								<input type="text" placeholder="Phone No"/>
-							</div>																		
-							<div class="single-input-field">
-								<textarea  placeholder="Message"></textarea>
-							</div>																		
-							<div class="single-input-fieldsbtn">
-								<input type="submit" value="submit now"/>
-							</div>							
+
 						</div>	
 					</div>
 				</div>				
