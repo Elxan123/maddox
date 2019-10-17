@@ -112,7 +112,7 @@
                                                 <li><a href="<?php echo base_url("public") ?>/project.html">Supply of End-Consumer Markets</a></li>
                                                 <li><a href="<?php echo base_url("public") ?>/project.html">Domestic Downstream Operations</a></li>
                                                 <li><a href="<?php echo base_url("public") ?>/project.html">Bunkering Business</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/project-details.html">Our Activites</a></li>
+                                                <li><a href="<?php echo base_url("public") ?>/project-details.html">Our Activities</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="<?php echo base_url("public") ?>/service-1.html">About<i class="icofont-caret-down"></i></a>

@@ -195,154 +195,8 @@
 		</div>		
 	</div>		
 	<!-- Service End -->	
-	<!-- Team Section Start -->		
-	<div class="team-sec pt-100 pb-70">	
-		<div class="container">
-			<!-- Section Title Start -->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="sec-title">
-						<h1>Our <span>Expert</span> Team</h1>
-						<div class="border-shape"></div>
-					</div>
-				</div>
-			</div>
-			<!-- Section Title End -->	
-			<div class="row">		
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="team-member">
-						<div class="team-thumb">
-							<img src="<?php echo base_url("public/img") ?>/team2_1.jpg" alt=""/>
-							<div class="team-overlay">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-google"></i></a></li>
-									<li><a href="#"><i class="fa fa-skype"></i></a></li>
-								</ul>							
-							</div>							
-						</div>
-						<h2>Kevin L. Menke</h2>
-						<h3>Mechanical Engineers</h3>						
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="team-member active">
-						<div class="team-thumb">
-							<img src="<?php echo base_url("public/img") ?>/team2_2.jpg" alt=""/>
-							<div class="team-overlay">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-google"></i></a></li>
-									<li><a href="#"><i class="fa fa-skype"></i></a></li>
-								</ul>							
-							</div>							
-						</div>
-						<h2>John C. Spink</h2>
-						<h3>Management Engineers</h3>						
-					</div>
-				</div>					
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="team-member">
-						<div class="team-thumb">
-							<img src="<?php echo base_url("public/img") ?>/team2_3.jpg" alt=""/>
-							<div class="team-overlay">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-google"></i></a></li>
-									<li><a href="#"><i class="fa fa-skype"></i></a></li>
-								</ul>							
-							</div>							
-						</div>
-						<h2>Philip V. Hill</h2>
-						<h3>Repair Technology</h3>						
-					</div>
-				</div>	
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<div class="team-member">
-						<div class="team-thumb">
-							<img src="<?php echo base_url("public/img") ?>/team2_4.jpg" alt=""/>
-							<div class="team-overlay">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-google"></i></a></li>
-									<li><a href="#"><i class="fa fa-skype"></i></a></li>
-								</ul>							
-							</div>							
-						</div>
-						<h2>Ira C. McMahon</h2>
-						<h3>Refinery Petroleum  </h3>						
-					</div>
-				</div>																			
-			</div>			     
-		</div>	
-	</div>	
-	<!-- Team Section End -->	
-	<div class="classic-counter-sec">
-			<div class="why-us-sec-overlay"></div>
-			<div class="container">			
-				<div class="row">
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<div class="join-us">
-							<span class="classic-counter-sub-title">Join Us Now</span>
-							<h2 class="classic-counter-title">If your are expert mechanical engineer then you can join with us</h2>
-							<p>Id oporteat delicata patrioque vel, ut malis velit mei, qui ad tempor numquam recteque. Quem phaedrum vel ut. Vix nulla copiosae gubergren ne, cu eius discere his. Enim luptatum an quo</p>
-							<a href="#"><i class="icofont-ui-user"></i>Join Now<span class="lnr lnr-arrow-right"></span></a>
-						</div>			
-					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<div class="classic-counter-inner">
-							<span class="classic-counter-sub-title">Our Achivement</span>
-							<h2 class="classic-counter-title">What we achive in here</h2>
-							<div class="classic-counter-box">
-								<div class="classic-counter-icon">
-									<i class="icofont-vehicle-crane"></i>
-								</div>
-								<div class="classic-counter-text">
-									<h2 class="counter">285</h2>
-									<h4>Happy Client</h4>						
-								</div>
-							</div>							
-							<div class="classic-counter-box">
-								<div class="classic-counter-icon">
-									<i class="icofont-building-alt"></i>
-								</div>
-								<div class="classic-counter-text">
-									<h2 class="counter">234</h2>
-									<h4>Project Complete</h4>						
-								</div>
-							</div>							
-							<div class="classic-counter-box">
-								<div class="classic-counter-icon">
-									<i class="icofont-live-support"></i>
-								</div>
-								<div class="classic-counter-text">
-									<h2 class="counter">345</h2>
-									<h4>Customer Support </h4>						
-								</div>
-							</div>						
-							<div class="classic-counter-box">
-								<div class="classic-counter-icon">
-									<i class="icofont-award"></i>
-								</div>
-								<div class="classic-counter-text">
-									<h2 class="counter">213</h2>
-									<h4>award winner</h4>						
-								</div>
-							</div>														
-						</div>
-					</div>
-				
-				</div>					
-			</div>
-		</div>			
+
+
 	<!-- Call To Action Section Start -->	
 	<div class="call-to-action-sec">
 		<div class="call-to-action-overlay"></div>
@@ -362,6 +216,7 @@
 			</div>					
 		</div>
 	</div>
+
 	<!-- Call To Action Section Start -->		
 	<!-- Appointment Area Start-->
  	<div class="appoitment-area pt-100 pb-80">
