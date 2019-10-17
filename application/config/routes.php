@@ -58,6 +58,6 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 $route[''] = "Home/index";
-$route["history"] = "Pages/about_history";
+
 $route["message"] = "Home/message";
 $route["contact"] = "Home/contact";
