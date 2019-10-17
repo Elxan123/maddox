@@ -55,9 +55,38 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 
-
+//home
 
 $route[''] = "Home/index";
 $route["history"] = "Pages/about_history";
+
+//contact
+
 $route["message"] = "Home/message";
 $route["contact"] = "Home/contact";
+
+//activities
+$route["trading"] = "Pages/activity_trading";
+$route["refined"] = "Pages/activity_refined";
+$route["markets"] = "Pages/activity_markets";
+$route["domestic"] = "Pages/activity_domestic";
+$route["crude"] = "Pages/activity_crude";
+$route["bunkering"] = "Pages/activity_bunkering";
+$route["activities"] = "Pages/activity_activities";
+
+//about
+
+$route["history"] = "Pages/about_history";
+$route["presences"] = "Pages/about_presences";
+
+
+//risk
+
+$route["risk"] = "Pages/risk_management";
+
+//value
+$route["compliance"] = "Pages/value_compliance";
+$route["governance"] = "Pages/value_governance";
+$route["social"] = "Pages/value_social";
+
+

@@ -17,7 +17,7 @@ Class Home extends CI_Controller{
         $name = strip_tags($this->input->post('name'));
         $email = strip_tags($this->input->post('email'));
         $msg = strip_tags($this->input->post('message'));
-       
+
         if (!empty($name) and !empty($email) and !empty($msg)) {
 
             $config = Array(

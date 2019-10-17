@@ -1,4 +1,4 @@
-
+<?php $this->load->view("includes/preheader") ?>
 	<!-- Contact Page Section Start -->
 	<div class="contact-page-sec pt-100 pb-100">
 		<div class="container">
@@ -69,24 +69,7 @@
 		<div id="map_id" class="contact-map"></div>			
 	</div>		
 	<!-- Call To Action Section Start -->	
-	<div class="call-to-action-sec">
-		<div class="call-to-action-overlay"></div>
-		<div class="container">
-			<div class="row">	
-				<div class="col-md-8 col-sm-9">
-					<div class="call-to-action-text">
-						<h2>contact with us for customer support</h2>
-						<p>we are provide 24/7 hours to support.</p>
-					</div>												
-				</div>				
-				<div class="col-md-4 col-sm-3">
-					<div class="call-to-action-text">
-						<a href="contact.html" class="btn">get support</a>
-					</div>												
-				</div>					
-			</div>					
-		</div>
-	</div>
+
 	<!-- Call To Action Section Start -->
     <?php if($this->session->flashdata("suc")){ ?>
         <script>

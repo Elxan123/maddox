@@ -62,24 +62,13 @@
                     <div class="col-md-8 col-sm-8">
                         <div class="hd-lft">
                             <ul>
-                                <li><i class="fa fa-commenting" aria-hidden="true"></i> 24x7 live Support</li>
-                                <li><i class="fa fa-phone"></i>(888) 010203-4567</li>
-                                <li><i class="fa fa-comment"></i>Live Chat</li>
+                                <li><i class="fa fa-commenting" aria-hidden="true"></i>Mon - Fri 10AM - 6PM</li>
+                                <li><i class="fa fa-phone"></i>+41227615200</li>
+                                <li><i class="fa fa-comment"></i>info@maddoxsa.com</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4">
-                        <div class="hd-rgt">
-                            <span class="follow-title">Follow Us</span>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -90,10 +79,10 @@
                     <div class="nav-menu">
                         <div class="col-md-3 col-sm-12 col-xs-9">
                             <div class="logo">
-                                <a href="<?php echo base_url("public") ?>/index-2.html"><img src="<?php echo base_url("public") ?>/img/logo.png" alt=""/></a>
+                                <a href="#"><img src="<?php echo base_url("public") ?>/img/logo.png" alt=""/></a>
                             </div>
                             <div class="sticky-logo">
-                                <a href="<?php echo base_url("public") ?>/index-2.html"><img src="<?php echo base_url("public") ?>/img/logo.png" alt=""/></a>
+                                <a href="#"><img src="<?php echo base_url("public") ?>/img/logo.png" alt=""/></a>
                             </div>
                         </div>
                         <div class="mobile-nav-menu"></div>
@@ -101,50 +90,40 @@
                             <div class="menu">
                                 <nav id="main-menu" class="main-menu">
                                     <ul>
-                                        <li><a href="<?php echo base_url("public") ?>/index-2.html">Home <i ></i></a>
+                                        <li><a href="<?php echo base_url("") ?>">Home <i ></i></a>
 
                                         </li>
-                                        <li><a href="<?php echo base_url("public") ?>/project.html">Activities<i class="icofont-caret-down"></i></a>
+                                        <li><a href="<?php echo base_url("trading") ?>">Activities<i class="icofont-caret-down"></i></a>
                                             <ul>
-                                                <li><a href="<?php echo base_url("public") ?>/project.html">Trading</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/project.html">Crude Oil</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/project.html">Refined Petroleum Products</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/project.html">Supply of End-Consumer Markets</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/project.html">Domestic Downstream Operations</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/project.html">Bunkering Business</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/project-details.html">Our Activities</a></li>
+                                                <li><a href="<?php echo base_url("trading") ?>">Trading</a></li>
+                                                <li><a href="<?php echo base_url("crude") ?>">Crude Oil</a></li>
+                                                <li><a href="<?php echo base_url("refined") ?>">Refined Petroleum Products</a></li>
+                                                <li><a href="<?php echo base_url("markets") ?>">Supply of End-Consumer Markets</a></li>
+                                                <li><a href="<?php echo base_url("domestic") ?>">Domestic Downstream Operations</a></li>
+                                                <li><a href="<?php echo base_url("bunkering") ?>">Bunkering Business</a></li>
+                                                <li><a href="<?php echo base_url("activities") ?>">Our Activities</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="<?php echo base_url("public") ?>/service-1.html">About<i class="icofont-caret-down"></i></a>
+                                        <li><a href="<?php echo base_url("history") ?>">About<i class="icofont-caret-down"></i></a>
                                             <ul>
-                                                <li><a href="<?php echo base_url("public") ?>/service-1.html">Our History</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/service-2.html">Our Presences</a></li>
+                                                <li><a href="<?php echo base_url("history") ?>">Our History</a></li>
+                                                <li><a href="<?php echo base_url("presences") ?>">Our Presences</a></li>
 
                                             </ul>
                                         </li>
-                                        <li><a href="<?php echo base_url("public") ?>/employees.html">Risk Management</a></li>
-                                        <li><a href="<?php echo base_url("public") ?>/blog-classic.html">Our Values<i class="icofont-caret-down"></i></a>
+                                        <li><a href="<?php echo base_url("risk") ?>">Risk Management</a></li>
+
+                                        <li><a href="<?php echo base_url("compliance") ?>">Our Values<i class="icofont-caret-down"></i></a>
                                             <ul>
-                                                <li><a href="<?php echo base_url("public") ?>/blog-classic.html">Compliance</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/blog-3-column.html">Governance</a></li>
-                                                <li><a href="<?php echo base_url("public") ?>/blog-2-column-sidebar.html">Social Responsiblity</a></li>
+                                                <li><a href="<?php echo base_url("compliance") ?>">Compliance</a></li>
+                                                <li><a href="<?php echo base_url("governance") ?>">Governance</a></li>
+                                                <li><a href="<?php echo base_url("social") ?>">Social Responsiblity</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="<?php echo base_url("public") ?>/contact.html">Contact Us</a></li>
+                                        <li><a href="<?php echo base_url("contact") ?>">Contact Us</a></li>
                                     </ul>
                                 </nav>
                                 <!-- Menu Search Bar Start -->
-                                <div class="search-bar-icon">
-                                    <div class="site-search">
-                                        <span data-toggle="dropdown"><i class="fa fa-search"></i></span>
-                                        <div class="search-forum dropdown-menu animation slideUpIn">
-                                            <form action="#">
-                                                <input placeholder="Search For Site" type="text">
-                                                <input type="submit" value="Go"/>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
                                 <!-- Menu Search Bar End -->
                             </div>
                         </div>
