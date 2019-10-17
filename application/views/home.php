@@ -217,3 +217,283 @@
 		</div>
 	</div>
 
+	<!-- Call To Action Section Start -->		
+	<!-- Appointment Area Start-->
+ 	<div class="appoitment-area pt-100 pb-80">
+		<div class="container">	
+			<!-- Section Title Start -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sec-title">
+						<h1><span>Freequently </span> Ask Question</h1>
+						<div class="border-shape"></div>
+					</div>
+				</div>
+			</div>
+			<!-- Section Title End -->						
+			<div class="row">	
+				<div class="col-md-7 col-sm-12">
+					<div class="faq-sec">				
+						<div class="panel-group" id="accordion" role="tablist">
+							<div class="panel">
+								<div class="panel-heading active" role="tab" id="titleOne">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+										  Can you project finished successfully? </a>
+									</h4>
+								</div>
+								<div id="collapseOne" class="panel-collapse collapsed in" role="tabpanel" aria-labelledby="titleOne">
+									<div class="panel-content">
+										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>								
+									</div>
+								</div>
+							</div>
+							<div class="panel">
+								<div class="panel-heading" role="tab" id="titleTwo">
+									<h4 class="panel-title">
+										<a class="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+									How we work verified & secured Service ? </a>
+									</h4>
+								</div>
+								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="titleTwo">
+									<div class="panel-content">
+										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>						
+									</div>
+								</div>
+							</div>
+							<div class="panel">
+								<div class="panel-heading" role="tab" id="titleThree">
+									 <h4 class="panel-title">
+										<a class="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								  How much experience we have?</a>
+									</h4>
+								</div>
+								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="titleThree">
+									<div class="panel-content">
+										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>							
+									</div>
+								</div>
+							</div>							
+							<div class="panel">
+								<div class="panel-heading" role="tab" id="titleFour">
+									 <h4 class="panel-title">
+										<a class="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								  How to grow up your industiral business?</a>
+									</h4>
+								</div>
+								<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="titleFour">
+									<div class="panel-content">
+										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>								
+									</div>
+								</div>
+							</div>								
+							<div class="panel">
+								<div class="panel-heading" role="tab" id="titleFive">
+									 <h4 class="panel-title">
+										<a class="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								  How much expert employees you have ?</a>
+									</h4>
+								</div>
+								<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="titleFive">
+									<div class="panel-content">
+										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>					
+									</div>
+								</div>
+							</div>					
+							<div class="panel">
+								<div class="panel-heading" role="tab" id="titleSix">
+									 <h4 class="panel-title">
+										<a class="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+								  Why Like Us our Happy Customer?</a>
+									</h4>
+								</div>
+								<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="titleSix">
+									<div class="panel-content">
+										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>						
+									</div>
+								</div>
+							</div>						
+												
+						</div>						
+					</div>
+				</div>
+				<div class="col-md-5 col-sm-12">
+					<div class="appointment-form">		
+						<div class="about-us-contact-title">
+							<h1>Get Quote</h1>
+							<div class="contact-title-border"></div>
+						</div>						
+						<div class="contact-field">
+
+						</div>	
+					</div>
+				</div>				
+			</div>					
+		</div>
+	</div>	
+	<!-- Appointment Area End -->
+	<!-- Testimonial Section Start -->
+	<div class="testimonial-sec sec-bg-gray pt-100 pb-100">
+		<div class="container">
+			<!-- Section Title Start -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sec-title">
+						<h1>What <span>Say</span> Our Client</h1>
+						<div class="border-shape"></div>
+					</div>
+				</div>
+			</div>
+			<!-- Section Title End -->
+			<div class="row">
+				<div class="all-testimonial">
+					<div class="single-testimonial">
+						<div class="client-thumb">
+							<img src="<?php echo base_url("public/img") ?>/testimonial3.jpg" alt=""/>
+						</div>						
+						<div class="client-comment">
+							<h2>John A. Reardon</h2>
+							<h3>ceo , themegarbage</h3>							
+							<p>Lorem ipsum dolor sit amet, lorem nibh lectus urna arcu, lorem erat semper, auctor suspendisse quisque molestie ut. Elit massa dui, leo enim magna. Cursus maecenas </p>							
+						</div>													
+					</div>						
+					<div class="single-testimonial">
+						<div class="client-thumb">
+							<img src="<?php echo base_url("public/img") ?>/testimonial1.jpg" alt=""/>
+						</div>						
+						<div class="client-comment">
+							<h2>Sidney I. Floyd</h2>
+							<h3>Manager of XYZ</h3>								
+							<p>Lorem ipsum dolor sit amet, lorem nibh lectus urna arcu, lorem erat semper, auctor suspendisse quisque molestie ut. Elit massa dui, leo enim magna. Cursus maecenas </p>							
+						</div>													
+					</div>				
+					<div class="single-testimonial">
+						<div class="client-thumb">
+							<img src="<?php echo base_url("public/img") ?>/testimonial2.jpg" alt=""/>
+						</div>						
+						<div class="client-comment">
+							<h2>Delbert H. Broderick</h2>
+							<h3>Head Of ABC</h3>							
+							<p>Lorem ipsum dolor sit amet, lorem nibh lectus urna arcu, lorem erat semper, auctor suspendisse quisque molestie ut. Elit massa dui, leo enim magna. Cursus maecenas </p>							
+						</div>													
+					</div>						
+					<div class="single-testimonial">
+						<div class="client-thumb">
+							<img src="<?php echo base_url("public/img") ?>/testimonial1.jpg" alt=""/>
+						</div>						
+						<div class="client-comment">
+							<h2>Richard H. Entwistle</h2>
+							<h3>Manager of XYZ</h3>								
+							<p>Lorem ipsum dolor sit amet, lorem nibh lectus urna arcu, lorem erat semper, auctor suspendisse quisque molestie ut. Elit massa dui, leo enim magna. Cursus maecenas </p>							
+						</div>													
+					</div>							
+					
+				</div>			
+			</div>
+		</div>
+	</div>
+	<!-- Testimonial Section End -->	
+	<!-- Blog Section Start -->
+	<div class="blog-sec pt-100 pb-70">
+		<div class="container">
+			<!-- Section Title Start -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sec-title">
+						<h1>Our <span>Latest</span> News</h1>
+						<div class="border-shape"></div>
+					</div>
+				</div>
+			</div>
+			<!-- Section Title End -->		
+			<div class="row">								
+				<div class="col-md-4 col-sm-6">	
+					<div class="media">	
+						<div class="single-post">	
+							<div class="single-post-thumb">	
+								<img src="<?php echo base_url("public/img") ?>/b1.jpg" alt=""/>
+								<div class="post-date">
+									<div class="post-date-middle">
+										<span>09</span>
+										<span>Feb</span>
+									</div>
+								</div>
+							</div>	
+							<div class="blog-text">
+								<div class="post-info">
+									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/blog-details.html">Get Energy Power</a></h2>
+									<div class="post-meta">
+										<ul>
+											<li><a href="#">Alexander</a></li>
+											<li><a href="#"> 25  comment </a></li>
+										</ul>									
+									</div>																			
+								</div>								
+								<p>Cu eos possit aperiri consequuntur. Solet audiam his et, eum probo Solet justo accommodare id</p>
+								<a href="#" class="blog-readmore">Read More</a>
+							</div>				
+						</div>				
+					</div>				
+				</div>					
+				<div class="col-md-4 col-sm-6">	
+					<div class="media">	
+						<div class="single-post">	
+							<div class="single-post-thumb">	
+								<img src="<?php echo base_url("public/img") ?>/b2.jpg" alt=""/>
+								<div class="post-date">
+									<div class="post-date-middle">
+										<span>01</span>
+										<span>March</span>
+									</div>
+								</div>
+							</div>	
+							<div class="blog-text">
+								<div class="post-info">
+									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/blog-details.html">Get petroliums  Power</a></h2>
+									<div class="post-meta">
+										<ul>
+											<li><a href="#">David Max</a></li>
+											<li><a href="#"> 20  comment </a></li>
+										</ul>									
+									</div>																			
+								</div>								
+								<p>Cu eos possit aperiri consequuntur. Solet audiam his et, eum probo Solet justo accommodare id</p>
+								<a href="#" class="blog-readmore">Read More</a>
+							</div>				
+						</div>				
+					</div>				
+				</div>					
+				<div class="col-md-4 col-sm-12">	
+					<div class="media">	
+						<div class="single-post">	
+							<div class="single-post-thumb">	
+								<img src="<?php echo base_url("public/img") ?>/b3.jpg" alt=""/>
+								<div class="post-date">
+									<div class="post-date-middle">
+										<span>07</span>
+										<span>May</span>
+									</div>
+								</div>
+							</div>	
+							<div class="blog-text">
+								<div class="post-info">
+									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/blog-details.html">Get Expert Mechanical</a></h2>
+									<div class="post-meta">
+										<ul>
+											<li><a href="#">Hamemdo</a></li>
+											<li><a href="#"> 20  comment </a></li>
+										</ul>									
+									</div>																			
+								</div>								
+								<p>Cu eos possit aperiri consequuntur. Solet audiam his et, eum probo Solet justo accommodare id</p>
+								<a href="#" class="blog-readmore">Read More</a>
+							</div>				
+						</div>				
+					</div>				
+				</div>			
+																													
+			</div>
+		</div>
+	</div>
+	<!-- Blog Section End -->	
+		
