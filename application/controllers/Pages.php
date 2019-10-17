@@ -13,7 +13,7 @@ Class Pages extends CI_Controller
     public function about_history()
 {
     $this->page = "about_history";
-    $this->page_pre = "History";
+    $this->page_pre = "About History";
     $this->load->view('includes/index');
 }
 
