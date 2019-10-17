@@ -19,7 +19,7 @@ Class Pages extends CI_Controller
 
     public function about_presences()
     {
-        $this->page_pre = "Presences";
+        $this->page_pre = " About Presences";
         $this->page = "about_presences";
         $this->load->view('includes/index');
         
