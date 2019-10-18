@@ -59,8 +59,10 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route[''] = "Home/index";
 
+// HEAD
 $route["history"] = "Pages/about_history";
 
+//contact
 
 
 

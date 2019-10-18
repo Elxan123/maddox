@@ -8,33 +8,32 @@
                 <div class="col-md-3 col-sm-6 footer-widget">
                     <div class="footer-wedget-one">
                         <h2>About Us</h2>
-                        <p>Lorem ipsum dolor sit amet, nulla fermentum, mollis ac lectus nulla, vel neque, risus non nunc duis lectus, ac id porttitor vulputate donec sed.nulla fermentum, mollis ac lectus nulla</p>
+                        <p>MADDOX is a privately-owned company trading physical oil and oil-related financial derivatives.
+                            Since inception it is our vision is to establish an international oil trading firm, offering the best service, attracting the best talent in the industry and maintaining exemplary corporate governance.</p>
                         <a href="<?php echo base_url("public") ?>/index-2.html"><img src="<?php echo base_url("public") ?>/img/footer-logo.png" alt=""/></a>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 footer-widget">
                     <div class="footer-widget-menu">
-                        <h2>Service links</h2>
+                        <h2>Activities</h2>
                         <ul>
-                            <li><a href="#">Mechanical Engineers</a></li>
-                            <li><a href="#">Management Engineers</a></li>
-                            <li><a href="#">Repair Technology</a></li>
-                            <li><a href="#">Refinery Petroleum </a></li>
-                            <li><a href="#">Latest Technology</a></li>
-                            <li><a href="#">Man Security</a></li>
+                            <li><a href="<?php echo base_url("trading") ?>">Trading</a></li>
+                            <li><a href="<?php echo base_url("crude") ?>">Crude Oil</a></li>
+                            <li><a href="<?php echo base_url("refined") ?>">Refined Petroleum Products</a></li>
+                            <li><a href="<?php echo base_url("markets") ?>">Supply of End-Consumer Markets </a></li>
+                            <li><a href="<?php echo base_url("domestic") ?>">Domestic Downstream Operations</a></li>
+                            <li><a href="<?php echo base_url("bunkering") ?>">Bunkering Business</a></li>
+                            <li><a href="<?php echo base_url("activities") ?>">Our Activities</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 footer-widget">
                     <div class="footer-widget-menu">
-                        <h2>Support links</h2>
+                        <h2>About</h2>
                         <ul>
-                            <li><a href="#">support link</a></li>
-                            <li><a href="#">faq & help center</a></li>
-                            <li><a href="#">about us</a></li>
-                            <li><a href="#">Create Account</a></li>
-                            <li><a href="#">service and help</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="<?php echo base_url("history") ?>">Our History</a></li>
+                            <li><a href="<?php echo base_url("presences") ?>">Our Presences</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -58,7 +57,7 @@
                                         <span class="icon"><i class="icofont-email"></i></span>
                                     </div>
                                     <div class="media-body">
-                                        <span class="inner-text">yourmail@gmail.com, info@indrostiz.com</span>
+                                        <span class="inner-text">info@maddoxsa.com</span>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +67,7 @@
                                         <span class="icon"><i class="icofont-telephone"></i></span>
                                     </div>
                                     <div class="media-body">
-                                        <span class="inner-text">+880 256794, 24-2564687</span>
+                                        <span class="inner-text">+41227615200</span>
                                     </div>
                                 </div>
                             </div>
