@@ -132,6 +132,7 @@
 <script src="<?php echo base_url("public") ?>/js/jquery.sticky.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJdanixi2Nzt7V-XXzo22neY4Eso8DXCQ"></script>
 <script src="<?php echo base_url("public") ?>/js/custom.js"></script>
+<script src="<?php echo base_url("public") ?>/js/iziToast.min.js"></script>
 <!-- Scripts Js End -->
 </body>
 

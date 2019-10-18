@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="<?php echo base_url("public") ?>/css/magnific-popup.css">
     <link rel="stylesheet" href="<?php echo base_url("public") ?>/css/animate.css">
     <link rel="stylesheet" href="<?php echo base_url("public") ?>/css/main.css">
-    <link rel="stylesheet" href="<?php echo base_url("public") ?>/style.css">
+<!--    <link rel="stylesheet" href="--><?php //echo base_url("public") ?><!--/style.css">-->
     <link rel="stylesheet" href="<?php echo base_url("public") ?>/css/meanmenu.min.css">
     <link rel="stylesheet" href="<?php echo base_url("public") ?>/css/responsive.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

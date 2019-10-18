@@ -5,6 +5,7 @@
 			<div class="row">				
 				<div class="col-md-8">
 					<div class="contact-field">
+
 						<h2>Write Your Message</h2>
                         <form action="<?php echo base_url("message") ?>" method="post">
 						<div class="col-md-6 col-sm-6 col-xs-12">
@@ -26,7 +27,10 @@
 							<input value="send now " type="submit">
 						</div>
                             </form>
-                        <?php echo $this->session->flashdata("suc")?>
+                        <?php if($this->session->flashdata("suc")){ ?>
+
+                            <div  class="alert-danger"><?php echo $this->session->flashdata("suc")?></div>
+                        <?php } ?>
 
 					</div>				
 				</div>
@@ -71,14 +75,5 @@
 	<!-- Call To Action Section Start -->	
 
 	<!-- Call To Action Section Start -->
-    <?php if($this->session->flashdata("suc")){ ?>
-        <script>
-            iziToast.success({
-                icon: 'icon-person',
-                message: '<?php echo $this->session->flashdata("suc")?>',
-                position: 'topCenter', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter
-                // progressBarColor: 'rgb(0, 255, 184)',
-            });
-        </script>
-    <?php }?>
+
 
