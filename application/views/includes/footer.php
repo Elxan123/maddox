@@ -9,8 +9,9 @@
                     <div class="footer-wedget-one">
                         <h2>About Us</h2>
                         <p>MADDOX is a privately-owned company trading physical oil and oil-related financial derivatives.
-                            Since inception it is our vision is to establish an international oil trading firm, offering the best service, attracting the best talent in the industry and maintaining exemplary corporate governance.</p>
-                        <a href="<?php echo base_url("public") ?>/index-2.html"><img src="<?php echo base_url("public") ?>/img/footer-logo.png" alt=""/></a>
+                            Since inception it is our vision is to establish an international oil trading firm, offering the best service, attracting the best talent in the industry and maintaining exemplary corporate governance.
+                            <br></nr></p>
+                        <a href="<?php echo base_url("public") ?>/index-2.html"><img src="<?php echo base_url("public") ?>/img/logo.png" alt=""/></a>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 footer-widget">

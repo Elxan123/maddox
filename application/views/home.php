@@ -8,10 +8,10 @@
 				<div class="slider-text">					
 					<div class="slider-wraper">					
 						<h1>Grow Up your business more<span> secure</span> And More Professional</h1>
-						<p>Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec, suscipit tortor et sapien donec ac nec. Nam vel eu amet, nisl imperdiet nec ad morbi, sodales ipsum, consequat purus vitae integer maecenas. Arcu sit, sit velit at ut eu phasellus</p>
+						<p>MADDOX is a privately-owned company trading physical oil and oil-related financial derivatives. Since inception it is our vision is to establish an international oil trading firm, offering the best service, attracting the best talent in the industry and maintaining exemplary corporate governance.</p>
 						<ul>
-							<li><a href="#">Read More</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="<?php echo base_url('history') ?>">Read More</a></li>
+
 						</ul>
 					</div>
 				</div>
@@ -21,10 +21,9 @@
 				<div class="slider-text">						
 					<div class="slider-wraper">					
 						<h1>We Provide <span>Verified & Secured</span> Service for company</h1>
-						<p>Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec, suscipit tortor et sapien donec ac nec. Nam vel eu amet, nisl imperdiet nec ad morbi, sodales ipsum, consequat purus vitae integer maecenas.</p>
+						<p>The core area of our daily activities is the Caspian Sea, Black-Sea, Balkan, FSU, Baltic and Mediterranean region. In these markets Maddox has positioned itself as one of the leading oil trading companies to source from and to supply these markets. Based on our sourcing capabilities in our core area we are utilizing arbitrage opportunities to supply Crude Oil and Oil products to North America, north Africa, AG & PG as well as Asian markets. Our daily operations and transactions are managed from our different offices and representations.</p>
 						<ul>
-							<li><a href="#">Contact Us</a></li>
-							<li><a href="#">Read More</a></li>
+							<li><a href="<?php echo base_url('presences') ?>">Read More</a></li>
 						</ul>
 					</div>
 				</div>
@@ -39,10 +38,10 @@
 				<div class="col-md-7">
 					<div class="about-us-v2">
 						<div class="about-desc">
-							<h1>About Our Company</h1>
-							<p>Lorem ipsum dolor sit amet, justo nunc orci donec sagittis metus dapibus, erat ullamcorper odio augue eleifend, consequat enim ullamcorper magnis dignissim nec phasellus, Lorem ipsum dolor sit amet, justo nunc orci donec sagittis metus dapibus, erat ullamcorper odio augue eleifend, consequat enim</p>
-							<p>Lorem ipsum dolor sit amet, justo nunc orci donec sagittis metus dapibus, erat ullamcorper odio augue eleifend, consequat enim .</p>
-							<a href="#">Read More</a>
+							<h1>About Our presences</h1>
+
+							<p>The core area of our daily activities is the Caspian Sea, Black-Sea, Balkan, FSU, Baltic and Mediterranean region. In these markets Maddox has positioned itself as one of the leading oil trading companies to source from and to supply these markets. Based on our sourcing capabilities in our core area we are utilizing arbitrage opportunities to supply Crude Oil and Oil products to North America, north Africa, AG & PG as well as Asian markets. Our daily operations and transactions are managed from our different offices and representations.</p>
+							<a href="<?php echo base_url('presences') ?>">Read More</a>
 						</div>			
 					</div>	
 				</div>	
@@ -77,8 +76,28 @@
 			</div>	
 			<!-- Section Title End -->			
 			<div class="row">			
+				<div class="col-md-4 col-sm-6" >
+					<div class="service-inner" style="height: 613px !important;">
+						<div class="media">
+							<div class="media-left">
+								<div class="service-icon">
+									<i class="icofont-oil-truck"></i>
+								</div>					
+							</div>					
+							<div class="media-body" >
+								<div class="service-details">	
+									<h2><a href="<?php echo base_url('trading') ?>">Trading</a></h2>
+									<div class="service-border-shape"></div>									
+									<p>MADDOX is one of the largest independent traders of crude oil and refined petroleum products in our core region , the Caspian Sea, Black-Sea, Balkan, FSU, Baltic and Mediterranean region.
+                                        Our TRADING activities in our core region is enhanced by our extensive logistical and storage capabilities.</p>
+									<a href="<?php echo base_url('trading') ?>" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
+								</div>							
+							</div>							
+						</div>							
+					</div>							
+				</div>				
 				<div class="col-md-4 col-sm-6">
-					<div class="service-inner">
+					<div class="service-inner" style="height: 613px !important;">
 						<div class="media">
 							<div class="media-left">
 								<div class="service-icon">
@@ -87,36 +106,17 @@
 							</div>					
 							<div class="media-body">				
 								<div class="service-details">	
-									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/service-details.html">Energy Power</a></h2>
+									<h2><a href="<?php echo base_url('crude') ?>">Crude Oil</a></h2>
 									<div class="service-border-shape"></div>									
-									<p>Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim</p>
-									<a href="#" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
-								</div>							
-							</div>							
-						</div>							
-					</div>							
-				</div>				
-				<div class="col-md-4 col-sm-6">
-					<div class="service-inner">
-						<div class="media">
-							<div class="media-left">
-								<div class="service-icon">
-									<i class="icofont-calculations"></i>
-								</div>					
-							</div>					
-							<div class="media-body">				
-								<div class="service-details">	
-									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/service-details.html">Expert Mechanical</a></h2>
-									<div class="service-border-shape"></div>									
-									<p>Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim</p>
-									<a href="#" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
+									<p>MADDOX is a niche trader of Crude Oil sourcing mainly from the Caspian region. Through our good relationships in our core region we have established and are maintaining long-term relationships with producer as well as regional refiners.</p>
+									<a href="<?php echo base_url('crude') ?>" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
 								</div>							
 							</div>							
 						</div>							
 					</div>						
 				</div>			
 				<div class="col-md-4 col-sm-6">
-					<div class="service-inner">
+					<div class="service-inner" style="height: 613px !important;">
 						<div class="media">
 							<div class="media-left">
 								<div class="service-icon">
@@ -125,17 +125,17 @@
 							</div>					
 							<div class="media-body">				
 								<div class="service-details">	
-									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/service-details.html">Building Management</a></h2>
+									<h2><a href="<?php echo base_url('refined') ?>">Refined Petroleum Products</a></h2>
 									<div class="service-border-shape"></div>								
-									<p>Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim</p>
-									<a href="#" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
+									<p>Our specialized products trading team is sourcing the physical molecules through long-term arrangements as well as spot opportunities. By utilizing our available logistical infrastructure MADDOX is supplying end-consumer markets indirectly or directly through our own subsidiaries but also is an active player in the global arbitrage business. Origination of products traded by Maddox</p>
+									<a href="<?php echo base_url('refined') ?>" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
 								</div>							
 							</div>							
 						</div>							
 					</div>						
 				</div>				
 				<div class="col-md-4 col-sm-6">
-					<div class="service-inner">
+					<div class="service-inner" style="height: 613px !important;">
 						<div class="media">
 							<div class="media-left">
 								<div class="service-icon">
@@ -144,17 +144,17 @@
 							</div>					
 							<div class="media-body">				
 								<div class="service-details">	
-									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/service-details.html">Energy Power</a></h2>
+									<h2><a href="<?php echo base_url('markets') ?>">Supply of End-Consumer Markets</a></h2>
 									<div class="service-border-shape"></div>									
-									<p>Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim</p>
-									<a href="#" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
+									<p>Our Business model is targeted to be close to our clients and to supply to end-consumer markets to capture additional margin along the value chain. To satisfy the markets we have established with the main actors in the individual market from subsidiaries of multi-national oil companies until independent privately owned downstream operators. For these clients we aim to be their access to the international markets to minimise supply costs and to maximize the downstream margin.</p>
+									<a href="<?php echo base_url('markets') ?>" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
 								</div>							
 							</div>							
 						</div>							
 					</div>						
 				</div>				
 				<div class="col-md-4 col-sm-6">
-					<div class="service-inner">
+					<div class="service-inner" style="height: 613px !important;">
 						<div class="media">
 							<div class="media-left">
 								<div class="service-icon">
@@ -163,17 +163,18 @@
 							</div>					
 							<div class="media-body">				
 								<div class="service-details">	
-									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/service-details.html">Oil Refinery</a></h2>
+									<h2><a href="<?php echo base_url('domestic') ?>">
+                                            Domestic Downstream Operations</a></h2>
 									<div class="service-border-shape"></div>								
-									<p>Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim</p>
-									<a href="#" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
+									<p>In non saturated markets we have established a local presence to import and supply directly to the local downstream operators and end-consumers. These activities are managed by our local teams supported by the financial, trading and risk-management capabilities of the group.</p>
+									<a href="<?php echo base_url('domestic') ?>" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
 								</div>							
 							</div>							
 						</div>							
 					</div>						
 				</div>			
 				<div class="col-md-4 col-sm-6">
-					<div class="service-inner">
+					<div class="service-inner" style="height: 613px !important;">
 						<div class="media">
 							<div class="media-left">
 								<div class="service-icon">
@@ -182,10 +183,11 @@
 							</div>					
 							<div class="media-body">				
 								<div class="service-details">	
-									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/service-details.html">Energy Power</a></h2>
+									<h2><a href="<?php echo base_url('bunkering') ?>">
+                                            Bunkering Business</a></h2>
 									<div class="service-border-shape"></div>									
-									<p>Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim</p>
-									<a href="#" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
+									<p>One of our core businesses is the supply of the international Bunkering Business with Marine Gasoil (MGO – Gasoil 0.1) in our hubs of Constanta (Romania) and Istanbul (SOM – Tukey). Over the years MADDOX created a number of long term cooperations with solid Bunkering Companies by supplying high quality product but also providing finance and risk-management solutions.</p>
+									<a href="<?php echo base_url('bunkering') ?>" class="service-btn">Continue Reading <i class="icofont-caret-right"></i></a>
 								</div>							
 							</div>							
 						</div>							
@@ -210,290 +212,14 @@
 				</div>				
 				<div class="col-md-4 col-sm-3">
 					<div class="call-to-action-text">
-						<a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/contact.html" class="btn">get support</a>
+						<a href="<?php echo base_url('contact') ?>" class="btn">get support</a>
 					</div>												
 				</div>					
 			</div>					
 		</div>
 	</div>
 
-	<!-- Call To Action Section Start -->		
-	<!-- Appointment Area Start-->
- 	<div class="appoitment-area pt-100 pb-80">
-		<div class="container">	
-			<!-- Section Title Start -->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="sec-title">
-						<h1><span>Freequently </span> Ask Question</h1>
-						<div class="border-shape"></div>
-					</div>
-				</div>
-			</div>
-			<!-- Section Title End -->						
-			<div class="row">	
-				<div class="col-md-7 col-sm-12">
-					<div class="faq-sec">				
-						<div class="panel-group" id="accordion" role="tablist">
-							<div class="panel">
-								<div class="panel-heading active" role="tab" id="titleOne">
-									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-										  Can you project finished successfully? </a>
-									</h4>
-								</div>
-								<div id="collapseOne" class="panel-collapse collapsed in" role="tabpanel" aria-labelledby="titleOne">
-									<div class="panel-content">
-										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>								
-									</div>
-								</div>
-							</div>
-							<div class="panel">
-								<div class="panel-heading" role="tab" id="titleTwo">
-									<h4 class="panel-title">
-										<a class="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-									How we work verified & secured Service ? </a>
-									</h4>
-								</div>
-								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="titleTwo">
-									<div class="panel-content">
-										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>						
-									</div>
-								</div>
-							</div>
-							<div class="panel">
-								<div class="panel-heading" role="tab" id="titleThree">
-									 <h4 class="panel-title">
-										<a class="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								  How much experience we have?</a>
-									</h4>
-								</div>
-								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="titleThree">
-									<div class="panel-content">
-										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>							
-									</div>
-								</div>
-							</div>							
-							<div class="panel">
-								<div class="panel-heading" role="tab" id="titleFour">
-									 <h4 class="panel-title">
-										<a class="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-								  How to grow up your industiral business?</a>
-									</h4>
-								</div>
-								<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="titleFour">
-									<div class="panel-content">
-										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>								
-									</div>
-								</div>
-							</div>								
-							<div class="panel">
-								<div class="panel-heading" role="tab" id="titleFive">
-									 <h4 class="panel-title">
-										<a class="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-								  How much expert employees you have ?</a>
-									</h4>
-								</div>
-								<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="titleFive">
-									<div class="panel-content">
-										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>					
-									</div>
-								</div>
-							</div>					
-							<div class="panel">
-								<div class="panel-heading" role="tab" id="titleSix">
-									 <h4 class="panel-title">
-										<a class="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-								  Why Like Us our Happy Customer?</a>
-									</h4>
-								</div>
-								<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="titleSix">
-									<div class="panel-content">
-										<p>Quo ea euismod consetetur. Posse integre an sea, ea sea diam consectetuer. Wisi constituto constituam ius ea, an amet etiam vel, summo reprehendunt ne vix. Pri vide invidunt cu, id eos nusquam copiosae. Ea sea latine placerat, malis iuvaret lobortis te pri. Nisl ocurreret in pro, melius sanctus elaboraret usu no. Etiam euripidis pro ei.</p>						
-									</div>
-								</div>
-							</div>						
-												
-						</div>						
-					</div>
-				</div>
-				<div class="col-md-5 col-sm-12">
-					<div class="appointment-form">		
-						<div class="about-us-contact-title">
-							<h1>Get Quote</h1>
-							<div class="contact-title-border"></div>
-						</div>						
-						<div class="contact-field">
 
-						</div>	
-					</div>
-				</div>				
-			</div>					
-		</div>
-	</div>	
-	<!-- Appointment Area End -->
-	<!-- Testimonial Section Start -->
-	<div class="testimonial-sec sec-bg-gray pt-100 pb-100">
-		<div class="container">
-			<!-- Section Title Start -->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="sec-title">
-						<h1>What <span>Say</span> Our Client</h1>
-						<div class="border-shape"></div>
-					</div>
-				</div>
-			</div>
-			<!-- Section Title End -->
-			<div class="row">
-				<div class="all-testimonial">
-					<div class="single-testimonial">
-						<div class="client-thumb">
-							<img src="<?php echo base_url("public/img") ?>/testimonial3.jpg" alt=""/>
-						</div>						
-						<div class="client-comment">
-							<h2>John A. Reardon</h2>
-							<h3>ceo , themegarbage</h3>							
-							<p>Lorem ipsum dolor sit amet, lorem nibh lectus urna arcu, lorem erat semper, auctor suspendisse quisque molestie ut. Elit massa dui, leo enim magna. Cursus maecenas </p>							
-						</div>													
-					</div>						
-					<div class="single-testimonial">
-						<div class="client-thumb">
-							<img src="<?php echo base_url("public/img") ?>/testimonial1.jpg" alt=""/>
-						</div>						
-						<div class="client-comment">
-							<h2>Sidney I. Floyd</h2>
-							<h3>Manager of XYZ</h3>								
-							<p>Lorem ipsum dolor sit amet, lorem nibh lectus urna arcu, lorem erat semper, auctor suspendisse quisque molestie ut. Elit massa dui, leo enim magna. Cursus maecenas </p>							
-						</div>													
-					</div>				
-					<div class="single-testimonial">
-						<div class="client-thumb">
-							<img src="<?php echo base_url("public/img") ?>/testimonial2.jpg" alt=""/>
-						</div>						
-						<div class="client-comment">
-							<h2>Delbert H. Broderick</h2>
-							<h3>Head Of ABC</h3>							
-							<p>Lorem ipsum dolor sit amet, lorem nibh lectus urna arcu, lorem erat semper, auctor suspendisse quisque molestie ut. Elit massa dui, leo enim magna. Cursus maecenas </p>							
-						</div>													
-					</div>						
-					<div class="single-testimonial">
-						<div class="client-thumb">
-							<img src="<?php echo base_url("public/img") ?>/testimonial1.jpg" alt=""/>
-						</div>						
-						<div class="client-comment">
-							<h2>Richard H. Entwistle</h2>
-							<h3>Manager of XYZ</h3>								
-							<p>Lorem ipsum dolor sit amet, lorem nibh lectus urna arcu, lorem erat semper, auctor suspendisse quisque molestie ut. Elit massa dui, leo enim magna. Cursus maecenas </p>							
-						</div>													
-					</div>							
-					
-				</div>			
-			</div>
-		</div>
-	</div>
-	<!-- Testimonial Section End -->	
-	<!-- Blog Section Start -->
-	<div class="blog-sec pt-100 pb-70">
-		<div class="container">
-			<!-- Section Title Start -->
-			<div class="row">
-				<div class="col-md-12">
-					<div class="sec-title">
-						<h1>Our <span>Latest</span> News</h1>
-						<div class="border-shape"></div>
-					</div>
-				</div>
-			</div>
-			<!-- Section Title End -->		
-			<div class="row">								
-				<div class="col-md-4 col-sm-6">	
-					<div class="media">	
-						<div class="single-post">	
-							<div class="single-post-thumb">	
-								<img src="<?php echo base_url("public/img") ?>/b1.jpg" alt=""/>
-								<div class="post-date">
-									<div class="post-date-middle">
-										<span>09</span>
-										<span>Feb</span>
-									</div>
-								</div>
-							</div>	
-							<div class="blog-text">
-								<div class="post-info">
-									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/blog-details.html">Get Energy Power</a></h2>
-									<div class="post-meta">
-										<ul>
-											<li><a href="#">Alexander</a></li>
-											<li><a href="#"> 25  comment </a></li>
-										</ul>									
-									</div>																			
-								</div>								
-								<p>Cu eos possit aperiri consequuntur. Solet audiam his et, eum probo Solet justo accommodare id</p>
-								<a href="#" class="blog-readmore">Read More</a>
-							</div>				
-						</div>				
-					</div>				
-				</div>					
-				<div class="col-md-4 col-sm-6">	
-					<div class="media">	
-						<div class="single-post">	
-							<div class="single-post-thumb">	
-								<img src="<?php echo base_url("public/img") ?>/b2.jpg" alt=""/>
-								<div class="post-date">
-									<div class="post-date-middle">
-										<span>01</span>
-										<span>March</span>
-									</div>
-								</div>
-							</div>	
-							<div class="blog-text">
-								<div class="post-info">
-									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/blog-details.html">Get petroliums  Power</a></h2>
-									<div class="post-meta">
-										<ul>
-											<li><a href="#">David Max</a></li>
-											<li><a href="#"> 20  comment </a></li>
-										</ul>									
-									</div>																			
-								</div>								
-								<p>Cu eos possit aperiri consequuntur. Solet audiam his et, eum probo Solet justo accommodare id</p>
-								<a href="#" class="blog-readmore">Read More</a>
-							</div>				
-						</div>				
-					</div>				
-				</div>					
-				<div class="col-md-4 col-sm-12">	
-					<div class="media">	
-						<div class="single-post">	
-							<div class="single-post-thumb">	
-								<img src="<?php echo base_url("public/img") ?>/b3.jpg" alt=""/>
-								<div class="post-date">
-									<div class="post-date-middle">
-										<span>07</span>
-										<span>May</span>
-									</div>
-								</div>
-							</div>	
-							<div class="blog-text">
-								<div class="post-info">
-									<h2><a href="../../../../../Users/ADNSU/Desktop/dizaynlar/indrostiz/blog-details.html">Get Expert Mechanical</a></h2>
-									<div class="post-meta">
-										<ul>
-											<li><a href="#">Hamemdo</a></li>
-											<li><a href="#"> 20  comment </a></li>
-										</ul>									
-									</div>																			
-								</div>								
-								<p>Cu eos possit aperiri consequuntur. Solet audiam his et, eum probo Solet justo accommodare id</p>
-								<a href="#" class="blog-readmore">Read More</a>
-							</div>				
-						</div>				
-					</div>				
-				</div>			
-																													
-			</div>
-		</div>
-	</div>
-	<!-- Blog Section End -->	
+
+
 		
