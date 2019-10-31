@@ -1,0 +1,543 @@
+/*=====================================================================================
+	== Px2Em ===========================================
+	
+	body 	87.5%
+
+	10px 	0.714em
+	11px 	0.786em
+	12px 	0.857em		12 / 14 = 0.857
+	13px 	0.929em		13 / 14 = 0.929
+	14px 	1em			14 / 14	= 1
+	15px 	1.071em		15 / 14 = 1.071
+	16px 	1.143em		16 / 14 = 1.143
+	17px 	1.214em
+	18px 	1.286em
+
+	
+	
+=====================================================================================*/
+
+/******************************************************************
+	RESET
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+font-weight:inherit;
+font-style:inherit;
+font-size:100%;
+font-family:inherit;
+vertical-align:baseline;
+}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+display:block;
+}
+
+body {
+background:#ffffff;
+color: black;
+font-size: 87.5%;
+font-family:arial, tahoma, verdana, sans-serif;
+font-weight:normal;
+text-align:center;
+line-height:0;
+-webkit-font-smoothing: subpixel-antialiased;
+-webkit-font-smoothing: antialiased;
+}
+body.body-video{
+background:#717274;
+background:url("../img/grey_bg2.png") repeat!important;
+
+}
+select, input, textarea, button {
+color: #000;
+font-size:99%;
+font-family:arial, tahoma, verdana, sans-serif;
+margin: 0px;
+}
+
+.video{
+line-height:1.5em;
+}
+
+
+
+/******************************************************************
+	TYPOGRAPHY
+*/
+a,
+a:link,
+a:visited,
+a:hover{
+color: black;
+text-decoration: underline;
+outline:none;
+}
+a:focus,
+a:hover{
+text-decoration: none;
+}
+
+
+
+
+
+
+/******************************************************************
+	FORM
+*/
+.clearfix:before,
+.clearfix:after {
+content: ".";    
+display: block;    
+height: 0;    
+overflow: hidden;	
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;} /* IE 5.5/6/7 */
+
+
+.form{ 
+line-height:1.5em;
+text-align:left;
+padding:5px 5px 0px 5px;
+}
+.form .leftcol-form{
+float:left;
+width:380px;
+}
+#wrap{
+	overflow: hidden;
+	width: 797px;
+}
+#wrap.rightcolhide{
+	width: 400px;
+
+}
+#wrap.rightcolhide .rightcol-form{
+	display: none;
+}
+.form .rightcol-form{
+float:right;
+width:380px;
+}
+.form p.desc{
+padding:0px 0px 15px 0px;
+font-size:1.143em;
+font-family: 'FrutigerLTW01-45Light',Arial,Tahoma,sans-serif; 
+}
+.form p.desc-2{
+color:#717274;
+font-size:0.786em;
+line-height:1.1em;
+font-family: 'FrutigerLTW01-55Roman',Arial,Tahoma,sans-serif;
+}
+.form p.desc-error{
+color:#e2071b;
+}
+.form p.desc strong{
+font-weight:bold;
+}
+.form .item{
+display:block;
+width:100%;
+padding:0px 0px 13px 0px;
+
+}
+.form .item.file-content{
+height:55px;
+}
+.form h1{
+font-size:1.7em;
+color:black;
+margin:0px 0px 12px 0px;
+padding:0px 0px 5px 0px;
+background: url(../img/h1-hr.png) left bottom repeat-x;
+font-family: 'Frutiger LT W01 65 Bold',Arial,Tahoma,sans-serif;
+}
+
+.form .item div.select{
+padding:0px;
+position:relative;
+font-size:1em;
+
+}
+
+.form .item div.status-open { 
+	z-index:5;
+ }
+
+
+.form .item label{
+display:block;
+width:100%;
+padding:0px 0px 2px 0px;
+font-size:0.786em;
+font-family: 'FrutigerLTW01-55Roman',Arial,Tahoma,sans-serif;
+}
+.form .item.error label{
+color:#e2071b;
+}
+.form .item input{
+padding:0px 10px;
+width:358px;
+height:33px;
+line-height:33px;
+border:1px solid #d0d2d3;
+color:#000;
+font-weight:bold;
+font-family: 'Frutiger LT W01 65 Bold',Arial,Tahoma,sans-serif;
+}
+.form .item input.small{
+width:45px;
+float:left;
+padding-left:20px!important;
+background:url(../img/phone-code-bg.png) left top no-repeat!important;
+}
+.form .item input.middle{
+width:272px;
+float:right;
+}
+.form .item input.file{
+float:right;
+border:0px;
+}
+.form .item.error input{
+border:1px solid #e2071b;
+color:#e2071b;
+background:url(../img/input-error.png) right center no-repeat;
+}
+.form .item.sucess input{
+background:url(../img/input-sucess.png) right top no-repeat;
+}
+
+/* FILE */
+
+
+/* SELECTBOX */
+.form .item label.select{
+padding:0px;
+position:relative;
+font-size:1em;
+}
+.form .item label.select span{
+position:absolute;
+right:0px;
+top:0px;
+width:31px;
+height:31px;
+overflow:hidden;
+cursor:pointer;
+text-indent:-9999px;
+}
+
+
+
+.form .item div.select span{
+position:absolute;
+right:0px;
+top:0px;
+width:31px;
+height:31px;
+overflow:hidden;
+cursor:pointer;
+text-indent:-9999px;
+}
+
+
+.form .item input.selectbox{
+cursor:pointer;
+
+padding:0px 10px;
+width:358px;
+height:33px;
+line-height:33px;
+border:1px solid #d0d2d3;
+color:#000;
+font-weight:bold;
+font-family: 'Frutiger LT W01 65 Bold',Arial,Tahoma,sans-serif;
+background: url(../img/selectbox-bg.png) right center repeat-x #fff;
+}
+.select .selectbox-wrapper,
+.select .selectbox-wrapper *{
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+
+}
+
+.select .selectbox-wrapper{
+z-index:100;
+width:378px !important;
+position:absolute;
+left:0px;
+top:33px;
+padding:0px;
+
+overflow-x: hidden;
+overflow-y: scroll;
+background:white;
+border:1px solid #d0d2d3;
+border-top:0px;
+}
+.select .selectbox-wrapper ul{
+background:#fff;
+position:relative;
+z-index:2;
+margin:0px;
+padding:0px;
+
+}
+.select .selectbox-wrapper ul li{
+padding:5px 10px;
+background:none;
+list-style-type:none;
+display:block;
+zoom:1;
+cursor:pointer;
+font-size:0.857em;
+}
+.select .selectbox-wrapper ul li.selected{
+background:#d0d2d3;
+}
+
+.select .selectbox-wrapper ul li:hover{
+background:#c8c8c8;
+}
+
+.form .item textarea{
+padding:7px 10px;
+width:358px;
+height:124px;
+border:1px solid #d0d2d3;
+color:#000;
+font-weight:bold;
+font-family: 'Frutiger LT W01 65 Bold',Arial,Tahoma,sans-serif;
+resize: none; 
+}
+.form .button{
+padding:5px 0px 0px 0px;
+}
+.form .button button{
+background: url(../img/button-bg.png) right 13px no-repeat #d0d2d3;
+border:1px solid #9c9e9f;
+cursor:pointer;
+float:left;
+color:#e2071b;
+font-weight:bold;
+font-family: 'Frutiger LT W01 65 Bold',Arial,Tahoma,sans-serif;
+margin:0px;
+padding:0px 150px 0px 12px;
+height:33px;
+line-height:30px;
+overflow:visible;
+}
+.form .button button:hover{
+background: url(../img/button-bg.png) right 13px  no-repeat #c8c8c8;
+}
+.form .button p{
+color:#797a7c;
+float:left;
+padding:0px 0px 0px 15px;
+height:33px;
+line-height:33px;
+font-size:0.786em;
+}
+.form .button p a:link,
+.form .button p a:visited,
+.form .button p a:hover{
+color:#797a7c;
+text-decoration:none;
+}
+.form .button p a:hover{
+text-decoration:underline;
+}
+
+
+/******************************************************************
+	VIDEO
+*/
+
+.video{
+text-align:left;
+/*position: relative;*/
+/*height: 600px;*/
+padding:5px 5px 0px 5px;
+
+}
+.video .logo{
+	background: url(../img/video-mercuria-bg.png) no-repeat #717274;
+	width: 174px;
+	height: 67px;
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+}
+.video .in-video{
+width:380px;
+padding:26px 0px 0px 0px;
+}
+.video p.desc{
+color:#ffffff;
+line-height:1.3em;
+padding:0px 0px 15px 0px;
+font-family: 'FrutigerLTW01-45Light',Arial,Tahoma,sans-serif;
+}
+.video p.desc strong{
+font-weight:bold;
+}
+.video h1{
+font-size:1.7em;
+color:white;
+/*width: 800px;*/
+margin:0px 0px 12px 0px;
+padding:0px 0px 5px 0px;
+/*background: url(../img/h1-hr-video.png) left bottom repeat-x; */
+font-family: 'Frutiger LT W01 65 Bold',Arial,Tahoma,sans-serif;
+}
+#video-content{
+width:780px;
+height:432px;
+}
+
+
+
+/******************************************************************
+	DOCUMENT
+*/
+.document{
+padding-top:0px;
+}
+.document .in-document{
+width:380px;
+padding:0px 0px 0px 0px;
+position:relative;
+left:0px;
+top:-20px;
+}
+
+.document .in-document-preview{
+  padding:0px 0px 0px 0px;
+  position:absolute;
+  left:0;
+  bottom:0;
+}
+
+.document .in-document-preview h2{
+width:380px;
+}
+
+.document .in-document-preview p{
+width:380px;
+height:40px;
+overflow:hidden;
+}
+
+
+.document h1{
+margin:0px 0px 5px 0px;
+}
+.document span.h2{
+display:block;
+font-size:1.7em;
+color:#9c9e9f;
+margin:0px 0px 8px 0px;
+padding:0px 0px 5px 0px;
+/*background: url(../img/h2-hr-video.png) left bottom repeat-x; */
+font-family: 'Frutiger LT W01 65 Bold',Arial,Tahoma,sans-serif;
+}
+.document .download{
+font-size:0.857em;
+line-height:1.2em;
+margin:0px;
+padding-top:12px;
+color:white;
+}
+.document .download a:link,
+.document .download a:visited,
+.document .download a:hover{
+font-weight:bold;
+text-decoration:none;
+color:White;
+padding-right:11px;
+background: url(../img/document-download.png) right center no-repeat;
+}
+
+
+.sliderpopup{
+position:relative;
+top:29px
+}
+.sliderpopup a.bx-prev{
+position:absolute;
+left:-55px;
+top:50%;
+margin:-20px 0px 0px 0px;
+background: url("../img/arrow_left.png") no-repeat scroll center center transparent;
+text-indent:-9999px;
+display:block;
+width:21px;
+height:24px;
+}
+
+.sliderpopup a.bx-next{
+position:absolute;
+right:-40px;
+top:50%;
+margin:-20px 0px 0px 0px;
+background: url("../img/arrow_right.png") no-repeat scroll center center transparent;
+text-indent:-9999px;
+display:block;
+width:21px;
+height:24px;
+}
+
+.bx-wrapper{
+position:relative;
+left:70px;
+}
+
+#sliderpopup li.pager{
+white-space:nowrap;
+}
+#sliderpopup li.pager img{
+/*float:left;*/
+}
+
+#sliderpopup li.pager {
+  text-align:center;
+}
+
+.bubble h4 a {
+    font-weight: 100;
+    font-size: 13px;
+    color: #555;
+    font-family: 'FrutigerLTW01-55Roman';
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+.bubble h5 {
+    font-family: 'FrutigerLTW01-45Light';
+    color: #777;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bubble .more {
+    padding-right: 13px;
+}
+
+
+.fancybox-wrap, .fancybox-outer, .fancybox-inner, .fancybox-iframe, iframe html, .body-video {  
+background:url("../img/grey_bg2.png") repeat!important;
+}
+

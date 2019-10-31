@@ -1,0 +1,124 @@
+/* Selectmenu
+----------------------------------*/
+.ui-selectmenu { display: block;position:relative;text-decoration: none; overflow:hidden;}
+.ui-selectmenu:focus{ outline: none; }
+.ui-selectmenu-icon { position:absolute; right:6px; margin-top:-8px; top: 50%; }
+.ui-selectmenu-menu { padding:0; margin:0; list-style:none; position:absolute; top: 0; visibility: hidden; overflow: auto;height: 208px;}
+.ui-selectmenu-open { visibility: visible; }
+.ui-selectmenu-menu-dropdown { }
+.ui-selectmenu-menu li a,.ui-selectmenu-status {display:block;outline:none}
+.ui-selectmenu-menu li.ui-selectmenu-hasIcon a,
+.ui-selectmenu-hasIcon .ui-selectmenu-status {position: relative}
+.ui-selectmenu-menu li .ui-icon, .ui-selectmenu-status .ui-icon { position: absolute; top: 1em; margin-top: -8px; left: 0; }
+.ui-selectmenu-open li.ui-selectmenu-item-focus a {  }
+.ui-selectmenu-menu li span,.ui-selectmenu-status span {display:block; font-size:10px;
+	line-height:11px;
+	font-weight:normal;
+	font-family: 'Frutiger LT W01 65 Bold';
+}
+.ui-selectmenu-item-content:first-child{
+	font-size:11px !important;
+	line-height:14px !important;
+}
+ .ui-selectmenu-item-content:last-child{
+	font-family: 'FrutigerLTW01-55Roman'
+}
+.ui-selectmenu-menu li .ui-selectmenu-item-footer { opacity: .8; }
+/*for optgroups*/
+.ui-selectmenu-menu .ui-selectmenu-group { font-size: 1em; }
+.ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label {display:block}
+
+#rightColumnProductSelect-button {height:37px;font-family:'Frutiger LT W01 65 Bold';width:180px !important}
+
+#rightColumnProductSelect-button .ui-selectmenu-status {padding:5px 5px 0 35px;display:block;font-size:1.1em}
+
+.sidebar .box .product {background: #ffffff;
+ background: #ffffff url(../img/ic_selectlist.png) no-repeat 163px center;
+
+}
+.sidebar .box .product a {
+ color: #db0d15;
+}
+
+#rightColumnProductSelect-menu {background:#ed868a;font-family:'Frutiger LT W01 65 Bold';line-height:1.2;
+box-shadow: 3px 4px 10px 2px #3D3D3E;
+behavior: url(css/PIE.html);
+margin:3px 0 0;}
+#rightColumnProductSelect-menu li {height:37px;display:block;font-size:1.1em}
+#rightColumnProductSelect-menu li a {display:block;height: 33px;color:#fff;padding:5px 4px 0 35px;background:url(../img/icons-products.png) no-repeat 5px 8px}
+#rightColumnProductSelect-menu li a:hover{
+	background-color: #e75f65;
+}
+#rightColumnProductSelect-menu li a:focus{
+	outline: none;
+}
+#rightColumnProductSelect-button{
+	background:url(../img/icons-products-active.png) no-repeat 5px 8px;
+}
+#rightColumnProductSelect-menu li.all a,
+#rightColumnProductSelect-button.all {background-position:5px 8px}
+
+#rightColumnProductSelect-menu li.coal-mining a,
+#rightColumnProductSelect-button.coal-mining {background-position:5px -29px}
+
+#rightColumnProductSelect-menu li.biofuel-refinery a,
+#rightColumnProductSelect-button.biofuel-refinery {background-position:5px -64px}
+#rightColumnProductSelect-menu li.infrastructure-amp-logistics a,
+#rightColumnProductSelect-button.infrastructure-amp-logistics {background-position:5px -104px}
+#rightColumnProductSelect-menu li.upstream-oil-amp-gas a,
+#rightColumnProductSelect-button.upstream-oil-amp-gas {background-position:5px -140px}
+#rightColumnProductSelect-menu li.section_5 a,
+#rightColumnProductSelect-button.section_5 {background-position:5px -29px}
+#rightColumnProductSelect-menu li.section_6 a,
+#rightColumnProductSelect-button.section_6 {background-position:5px -29px}
+
+
+#rightColumnProductSelect-menu li span {display:block}
+#rightColumnProductSelect-menu .ui-selectmenu-item-selected {background: #ffffff;}
+#rightColumnProductSelect-menu .ui-selectmenu-item-selected a {background: transparent url(../img/icons-products-active.png) no-repeat 5px 8px; color: #db0d15; display:block; height: 33px; padding:5px 4px 0 35px; }
+
+#rightColumnProductSelect-menu .ui-selectmenu-item-selected a:hover{
+	background-color: transparent;
+}
+.ui-selectmenu-status span:last-child{
+	font-family: 'FrutigerLTW01-55Roman';
+}
+
+/** Scroll bar */
+#rightColumnProductSelect-menu{
+	overflow: hidden;
+	width: 180px!important;
+	top: 136px!important;
+	box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.6);
+  position: fixed;
+}
+
+#rightColumnProductSelect-menu .arrow{
+	position: absolute;
+	top: 7px; right: 7px;
+	background: url(../img/dropdown_arrows.png) no-repeat -7px 0px;
+	width: 7px;
+	height: 7px;
+	cursor: pointer;
+}
+
+
+#rightColumnProductSelect-menu .arrow.down{
+	top: auto;
+	bottom: 7px;
+	background-position: 0px 0px;
+}
+
+#rightColumnProductSelect-menu .arrow.down.disabled{
+
+	background-position: -21px 0px; 
+	display:none;
+}
+#rightColumnProductSelect-menu .arrow.up.disabled{
+	background-position: -14px 0px;
+	display:none;
+}
+select#rightColumnProductSelect,select#rightColumnProductSelect:focus{
+    outline: none;
+}
+

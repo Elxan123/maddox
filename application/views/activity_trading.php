@@ -15,15 +15,17 @@
                 <div class="service-details-desc">
 
                     <div class="service-details-text">
-                        <h2><a href="#">Trading</a></h2>
-                        <p style="font-size: 19px; font-family: Arial;">
+                        <h1><a href="#">Trading</a></h1>
+                        <p style="font-size: 20px; font-family: Arial; line-height: 1.5">
                             <br>   MADDOX  is one of the largest independent traders of crude oil and refined petroleum products in our  core region , the Caspian Sea, Black-Sea, Balkan, FSU, Baltic and Mediterranean region.
                             <br>   Our TRADING activities in our core region is enhanced by our extensive logistical and storage capabilities.
                             <br>   Based on our sourcing capabilities in our core region we are utilizing arbitrage opportunities to supply Crude Oil and Refined Petroleum Products to North America, north Africa, AG & PG as well as Asian markets.
                             <br>   Our aim is to be close to our clients and to understand their daily needs to ensure a smooth and sound delivery process in line with our high international standards of operation.
                             <br>   Our target is to establish and maintain long term relationships with our counterparties along the value-chain from exploration until final consumption.
                             <br>   To achieve these goals, we are working with dedicated partners who follow our approach of best practice in every aspect of HSSE and with infrastructure from Depots, transport logistics, Terminals, and vessels that comply with the standards of MADDOX and our first class insurers.
-
+                            <br>
+                            <br>
+                            <br>
 
 
                     </div>

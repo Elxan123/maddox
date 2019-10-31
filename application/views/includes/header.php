@@ -13,6 +13,7 @@
     <title>Indrostiz - Factory & Industrial HTML Template</title>
     <!-- Favicon Icon -->
     <link rel="icon" type="image/png" href="<?php echo base_url("public") ?>/img/favicon.png">
+    <script src="https://kit.fontawesome.com/2f9f18fb88.js" crossorigin="anonymous"></script>
 
     <!-- Apple Touch Icons -->
     <link rel="apple-touch-icon" href="<?php echo base_url("public") ?>/img/apple-touch-icon.png">
@@ -24,6 +25,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="<?php echo base_url("public") ?>/img/apple-touch-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="<?php echo base_url("public") ?>/img/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url("public") ?>/img/apple-touch-icon-180x180.png">
+    <link rel="stylesheet" href="<?php echo base_url('public/add/css/timeline.css') ?>" />
 
     <!-- Stylesheets Start -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
@@ -90,8 +92,15 @@
                             <div class="menu">
                                 <nav id="main-menu" class="main-menu">
                                     <ul>
-                                        <li><a href="<?php echo base_url("") ?>">Home <i ></i></a>
+                                        <li><a href="<?php echo base_url("") ?>">Home</a></li>
+                                        <li><a href="<?php echo base_url("history") ?>">About us<i class="icofont-caret-down"></i></a>
+                                            <ul>
+                                                <li><a href="<?php echo base_url("history") ?>">Our History</a></li>
+                                                <li><a href="<?php echo base_url("presences") ?>">Our Presences</a></li>
+                                                <li><a href="<?php echo base_url("activities") ?>">Our Activities</a></li>
+                                                <li><a href="<?php echo base_url("risk") ?>">Risk Management</a></li>
 
+                                            </ul>
                                         </li>
                                         <li><a href="<?php echo base_url("trading") ?>">Activities<i class="icofont-caret-down"></i></a>
                                             <ul>
@@ -101,17 +110,11 @@
                                                 <li><a href="<?php echo base_url("markets") ?>">Supply of End-Consumer Markets</a></li>
                                                 <li><a href="<?php echo base_url("domestic") ?>">Domestic Downstream Operations</a></li>
                                                 <li><a href="<?php echo base_url("bunkering") ?>">Bunkering Business</a></li>
-                                                <li><a href="<?php echo base_url("activities") ?>">Our Activities</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="<?php echo base_url("history") ?>">About<i class="icofont-caret-down"></i></a>
-                                            <ul>
-                                                <li><a href="<?php echo base_url("history") ?>">Our History</a></li>
-                                                <li><a href="<?php echo base_url("presences") ?>">Our Presences</a></li>
 
                                             </ul>
                                         </li>
-                                        <li><a href="<?php echo base_url("risk") ?>">Risk Management</a></li>
+
+
 
                                         <li><a href="<?php echo base_url("compliance") ?>">Our Values<i class="icofont-caret-down"></i></a>
                                             <ul>

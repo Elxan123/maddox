@@ -1,0 +1,4030 @@
+@import url("http://hello.myfonts.net/count/386cc9");
+
+  
+@font-face {font-family: 'FrutigerLTW01-45Light';src: url('webfonts/386CC9_0_0.eot');src: url('webfonts/386CC9_0_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/386CC9_0_0.woff2') format('woff2'),url('webfonts/386CC9_0_0.woff') format('woff'),url('webfonts/386CC9_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'FrutigerLTW01-55Roman';src: url('webfonts/386CC9_1_0.eot');src: url('webfonts/386CC9_1_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/386CC9_1_0.woff2') format('woff2'),url('webfonts/386CC9_1_0.woff') format('woff'),url('webfonts/386CC9_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Frutiger LT W01 65 Bold';src: url('webfonts/386CC9_2_0.eot');src: url('webfonts/386CC9_2_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/386CC9_2_0.woff2') format('woff2'),url('webfonts/386CC9_2_0.woff') format('woff'),url('webfonts/386CC9_2_0.ttf') format('truetype');}
+ 
+
+
+/* ----------------------------------------------------------------------------------------------------------RESET AND GENERAL FORMAT---------------------------------------------------------------------------------------------------------- */
+body, html, p, ul, ol, li, h1, h2, h3, h4, h5, h6, img, form, fieldset, legend, blockquote, address, dd {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	font: inherit;
+	font-style: normal;
+	font-weight: normal;
+}
+input, select, label {
+	vertical-align: middle;
+	outline: 0
+}
+ul, ol {
+	list-style-type: none
+}
+p {
+	line-height: 1.4;
+	color: #5f5e5e
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+hr {
+	display: none
+}
+hr {
+	clear: both;
+}
+tbody th {
+	border-bottom: none
+}
+/* ----------------------------------------------------------------------------------------------------------DOCUMENT---------------------------------------------------------------------------------------------------------- */
+body, html {
+	overflow-x: hidden;
+}
+html {
+	background: #fff;
+	overflow-y: scroll;
+  font-size:16px;
+}
+body {
+	font: normal 62.5%/1 Arial, FrutigerLTW01-55Roman, Tahoma, sans-serif;
+	background: url("../img/bg.png") repeat-x fixed center 104px transparent;
+	color: #5F5E5E;
+	min-width: 960px;
+  /*min-height:920px; /* jim */
+}
+body.home {
+	background: none;
+}
+.ie7 body {
+	overflow-y: auto;
+	font: normal 62.5%/1 Arial, FrutigerLTW01-55Roman, Tahoma, sans-serif;
+}
+.ie8 ul.nav>li>ul, .ie7 ul.nav>li>ul {
+	border: 1px solid #ddd;
+}
+.ie7 .content .column.fl.products_services_landing .item {
+	display: inline;
+	zoom: 1;
+}
+body.crosshairs .wrapAll {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+/* ANCHORS */
+a {
+	text-decoration: none;
+	color: #000
+}
+a:focus {
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #db0d15;
+}
+/* BASIC CLASSES */
+.right {
+	text-align: right
+}
+.left {
+	text-align: left
+}
+.center {
+	text-align: center
+}
+.fr {
+	float: right
+}
+.fl {
+	float: left
+}
+.cb {
+	clear: both
+}
+.bold {
+	font-weight: bold
+}
+.italic {
+	font-style: italic
+}
+.red {
+	color: #db0d15!important
+}
+.break {
+	height: 0px;
+	font-size: 0px;
+	line-height: 0px;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	display: block;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100%;
+}
+/* JUMP TO */
+ul.jump {
+	position: absolute;
+	top: 0;
+	left: -9999px
+}
+/* ----------------------------------------------------------------------------------------------------------WRAPPER---------------------------------------------------------------------------------------------------------- */
+.mainPartWrapper, .footer {
+	width: 924px;
+	margin: 0 auto;
+	overflow: visible;
+/* changed from hidden to visible */
+	position: relative;
+	zoom: 1;
+}
+/* ----------------------------------------------------------------------------------------------------------HEADER---------------------------------------------------------------------------------------------------------- */
+.header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	background: #fff;
+	z-index: 1000;
+	min-width: 960px;
+	height: 105px;
+}
+.ie6 .header {
+	position: absolute !important;
+}
+.header .row-main {
+	height: 85px;
+	padding: 7px 0 0;
+	width: 924px;
+	margin: 0 auto;
+	position: relative;
+	zoom: 1;
+}
+.mainPartWrapper:after, .header .row-main:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+/* LOGO */
+.header .logo {
+	float: left
+}
+/* ----------------------------------------------------------------------------------------------------------MAIN NAVIGATION---------------------------------------------------------------------------------------------------------- */
+.wrapper .nav {
+	font-family: 'Arial';
+	width: 649px;
+}
+.nav {
+	z-index: 500;
+	float: left;
+	padding: 72px 0 7px 37px;
+}
+.ie6 .nav {
+	padding: 52px 0 2px 37px;
+	display: inline;
+	zoom: 1;
+}
+.ie6 .nav li {
+	padding-bottom: 0;
+}
+.nav li {
+    float: left;
+    font-size: 14px;
+    padding: 0 7px 5px 8px !important;
+    position: relative;
+    z-index: 3000;
+}
+
+.nav li a {
+	float: left;
+	color: #7e7c7c;
+	position: relative;
+	z-index: 10;
+}
+.nav li.active a {
+	color: #db0d15;
+	text-decoration: none
+}
+.nav li a:hover, .nav li.hover a {
+	color: #db0d15;
+	text-decoration: none
+}
+ul.nav ul {
+	position: absolute;
+	width: 216px;
+	z-index: 999;
+	left: -4px;
+	top: 100%;
+	visibility: hidden;
+	background: #fff;
+	padding: 3px 5px 5px 5px;
+	border-bottom: 1px solid #C5C6C7;
+	font-family: 'FrutigerLTW01-55Roman';
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 7px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 7px;
+	-o-box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 7px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 7px;
+}
+.ie8 ul.nav>li>ul, .ie7 ul.nav>li>ul {
+	border: 1px solid #ddd;
+}
+ul.nav li.hover ul a {
+	color: #717273
+}
+ul.nav li.hover ul a:hover, ul.nav li.hover ul .active a {
+	color: #db0d15
+}
+ul.nav ul li {
+	float: left;
+	display: block;
+	width: 100%;
+	font-size: 0.9em;
+	padding: 5px 10px !important;
+}
+ul.nav ul li a {
+	position: relative;
+	display: block;
+	float: none
+}
+ul.nav ul li ul {
+	left: 170px;
+	top: 0
+}
+ul.nav ul li ul div {
+	padding: 0 0 5px;
+	color: #717273
+}
+ul.nav ul li ul div strong {
+	display: block;
+	padding: 5px 0
+}
+ul.nav ul li ul div a {
+	display: block;
+	margin: 0 0 5px
+}
+/* ----------------------------------------------------------------------------------------------------------CONTENT---------------------------------------------------------------------------------------------------------- */
+.content {
+	width: 720px;
+	float: left;
+	margin: 104px 24px 0 0;
+}
+.content .map-wrapper {
+	width: 720px;
+	/*border-bottom: 1px solid #BBBDBF;
+	border-top: 1px solid #9C9E9F;
+*/
+	overflow: hidden;
+	margin: 0 0 18px;
+	height: 333px;
+	position: relative;
+}
+/*.content .map-wrapper .imageBox, .content .map-wrapper .mapBox {
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+*/
+.content .map-wrapper .mapBox {
+	position: absolute;
+	height: 333px;
+	width: 720px;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+.content .map-wrapper #viewport {
+	overflow: hidden;
+}
+.content .map-wrapper .imageBox {
+	position: absolute;
+	opacity: 1;
+	top: 0px;
+	width: 720px;
+	overflow: hidden;
+	height: 333px;
+}
+.content .map-wrapper.maphide .imageBox {
+	opacity: 1;
+	top: 0;
+}
+.content .map-wrapper.maphide .mapBox {
+	height: 0;
+}
+.content .map-wrapper.maphide .mapBox #viewport {
+	border-bottom: 0;
+}
+.content .map-wrapper .imageBox .controls {
+	top: -1px;
+	line-height: 21px;
+	padding: 0 10px;
+	background: url('../img/g75.html');
+	background: rgba(240, 240, 240, 0.75);
+	border-width: 0;
+	height: 21px;
+	font-size: 12px;
+}
+.content .map-wrapper .imageBox .controls a {
+	color: #666;
+	font-size: 11px;
+}
+.content .map-wrapper .imageBox .controls a:hover {
+	color: #000;
+}
+.item.mapNodesRightColumn span .red {
+	color: #db0d15 !important;
+}
+.element-invisible {
+	display: none
+}
+/* MAP NAVIGATION */
+.map_navigation {
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.map_navigation {
+	width: 710px;
+	margin: 0 0 20px;
+	overflow: hidden;
+	font-family: 'FrutigerLTW01-55Roman', Verdana, Arial, Helvetica, sans-serif;
+	background: #f1f1f2;
+	border-bottom: 1px solid #9c9e9f;
+	padding: 4px 0 5px 10px;
+	border-top: 1px solid #c4c6cc;
+}
+.map_navigation span, .map_navigation a {
+	color: #9c9e9f;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 12px;
+	margin-right: 15px;
+}
+.map_navigation span:hover, .map_navigation a:hover, .map_navigation .hover {
+	color: #78797b;
+}
+.map_navigation .left {
+	float: left;
+}
+.map_navigation .right.assetsOnlySwitch {
+	background-position: 0px -71px;
+	padding-left: 12px;
+}
+.map_navigation .right.officesOnlySwitch.red {
+	background-position: 0px -58px;
+}
+.map_navigation .showHideMap, .showHideMap {
+	background: url(../img/navigation.html) no-repeat 0px -22px;
+	padding-left: 13px;
+}
+.showHideMap.show {
+	background-position: 0px -81px;
+}
+.map_navigation .right {
+	float: right;
+	cursor: pointer;
+	background: url(../img/navigation.html) no-repeat 0px 0px;
+	padding-left: 15px;
+	text-align: left;
+}
+.map_navigation .officesOnlySwitch {
+	padding-left: 12px;
+}
+.map_navigation .right.red {
+	background-position: 0px -11px;
+	color: #db0d15;
+}
+.map_navigation .right.zoomButton {
+	background-position: 0px -46px;
+	padding-left: 15px;
+	margin-right: 0px;
+	margin: 0 10px 0 0;
+	text-align: left;
+	width: 4.8em;
+}
+.map_navigation .right.dayNightSwitch {
+	background-position: 0px -33px;
+	padding-left: 15px;
+}
+#popup-topics h2, .content .column.fr h2 {
+	font-size: 1.2em;
+	color: #db0d15;
+	border-bottom: 1px solid #BBBDBF;
+	margin: 0 0 5px;
+	padding: 0 0 5px;
+	font-family: 'Arial';
+	font-weight: bold;
+}
+#popup-topics h2 {
+	margin-bottom: 9px !important;
+}
+.content h1 {
+	font-size: 38px;
+	font-family: 'Frutiger LT W01 65 Bold';
+	color: #DA0C14;
+	letter-spacing: -0.02em;
+}
+.content h1 img.icon_s1 {
+	margin: 0 15px 0 0;
+	vertical-align: top;
+}
+.content p.highlight {
+	padding-top: 11px;
+	line-height: 1.2em;
+	color: #616265;
+	font-size: 2.6em;
+	margin-bottom: 39px;
+	font-family: 'FrutigerLTW01-45Light'
+}
+.content .column.fl p, .content .column.fr p, .content .column.fl li {
+	font-size: 1.5em;
+	margin: 0;
+	line-height: 1.35;
+}
+
+.system-page .column.fl {
+	font-size: 1.5em;
+	margin: 0;
+  margin-top:15px!important;
+	line-height: 1.35;
+}
+
+.content .column.fl .form-item {
+  padding:7px 0;
+}
+
+.content .column.fl .form-item .description{
+  font-size:10px;
+}
+
+.content .column.fl ul {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+
+
+.people-vacancy .content .column.fl ul {
+	list-style-type: none;
+	list-style-position: inside;
+}
+
+.people-vacancy .content .column.fl ul li
+{
+  background: url("../img/item-td-sep.png") no-repeat left 0.6em;
+  padding: 0 0 0 15px;
+}
+
+
+ul.tabs {
+	list-style-type: none!important;
+}
+.content .column.fl p {
+	margin-bottom: 15px;
+}
+.content .products_services_landing p {
+	clear: left;
+}
+.content .column.fl .hp-boxes p {
+	margin: 0.1em 7px 0 0;
+}
+.content .column.fl {
+	width: 540px;
+	margin: 0 0 30px;
+}
+/*.content h1 {
+	line-height: 24px;
+	margin-top: 6px;
+	letter-spacing: 1px;
+}
+.content .column.fl h1 {
+	font-size: 23px;
+	letter-spacing: -0.015em;
+	padding-bottom: 0px;
+	line-height: 21px;
+	margin-bottom: 6px;
+}
+.content .column.fl p.highlight {
+	padding-top: 4px;
+	line-height: 30px;
+	color: #616265;
+	font-size: 23px;
+	margin-bottom: 10px;
+	background: url(../img/content_highlight_bg.png) repeat 0px 0px;
+}
+.content p.highlight, .content .column.fl p.highlight {
+	font-size: 41px;
+	background: url(../img/highlight_bg.png) repeat 0px 40px;
+	color: #616265;
+	margin: 0 0 25px;
+	font-family: 'Frutiger LT W01 65 Bold';
+	line-height: 41px;
+	letter-spacing: -0.015em;
+}
+*/
+.content .column.fr .facts ul {
+	font-size: 1.1em;
+	color: #717273;
+	line-height: 1.2;
+	font-family: 'FrutigerLTW01-55Roman';
+}
+.content .column.fr .facts ul li {
+	margin: 0 0 7px;
+	zoom: 1;
+	min-height: 23px;
+	_height: 23px;
+	line-height: 23px;
+	vertical-align: middle;
+	overflow: hidden;
+	padding-left: 27px;
+}
+.content .column.fr .facts ul li span {
+	float: left;
+	display: inline;
+	width: 20px;
+	height: 23px;
+	margin-left: -27px;
+}
+.content .column.fr .facts ul li h3 {
+	font-size: 11px;
+	font-family: 'FrutigerLTW01-55Roman', arial, helvetica, sans-serif;
+	font-weight: normal;
+	line-height: 14px;
+	vertical-align: middle;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+.content .column.fr .facts.hp h2 {
+	border: 0 none
+}
+.content .column.fr .facts ul li span {
+	display: block;
+	color: #9B9E9F;
+	line-height: 14px;
+}
+.content .column.fr .facts ul li span.keyfactfigure {
+	display: block;
+	color: #9B9E9F;
+	margin-left: 0;
+	width: auto;
+	height: auto
+}
+/* ----------------------------------------------------------------------------------------------------------SIDEBAR---------------------------------------------------------------------------------------------------------- */
+.sidebar {
+	width: 180px;
+	float: left;
+	padding: 11px 0 14px;
+
+/* Fallback for web browsers that don't support RGBa */
+background-color: rgb(219, 13, 21);
+/* RGBa with 0.9 opacity */
+background-color: rgba(219, 13, 21, 0.9);
+/* For IE 5.5 - 7*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#e5db0d15, endColorstr=#e5db0d15);
+/* For IE 8*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e5db0d15, endColorstr=#e5db0d15)";
+
+}
+.sidebar.n1, .sidebar.n2 {
+	padding: 3px 0 11px;
+}
+.sidebar.n2 {
+	margin: 104px 0 0 744px;
+	position: fixed;
+}
+.ie7 .sidebar.n2, .ie6 .sidebar.n2 {
+	margin: 104px 0 0;
+	position: fixed;
+}
+/* BOX */
+.sidebar .box {
+	margin: 0 10px;
+	border-bottom: 1px solid #fff;
+	line-height: 1.2;
+}
+
+.sidebar.n1 .box.news{
+  border-bottom: none;
+}
+.sidebar .box h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 17px;
+	margin: 0 0 7px;
+	clear: left;
+}
+.sidebar .box h3 {
+	font-size: 1em;
+	line-height: 16px;
+	font-weight: normal;
+}
+.sidebar .box p {
+	margin: 7px 0 5px 0;
+	font-size: 1.1em;
+	line-height: 14px;
+}
+.sidebar .link-bottom {
+	border: none;
+	margin: 3px 10px 0 10px;
+}
+.sidebar .link-bottom p {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 8px 0 5px 0;
+}
+.sidebar span.date {
+	margin: 0;
+	font-size: 11px;
+	margin: 2px 0;
+	font-family: 'FrutigerLTW01-55Roman';
+	line-height: 14px;
+}
+.sidebar span.date {
+	line-height: 13px;
+}
+.sidebar span.date + p {
+	font-size: 13px;
+	line-height: 16px;
+	margin: 5px 0;
+}
+.sidebar .box, .sidebar .box p, .sidebar .box a {
+	color: #fff
+}
+.sidebar .box a.rightColumnNode.red {
+	color: #db0d15;
+}
+.sidebar .box p a, .sidebar .box h2 a {
+	padding: 0 12px 0 0;
+	background: url(../img/arrow_white_right.png) no-repeat center right;
+}
+.sidebar .box h2 a {
+	background-position: 100% 6px;
+	background: none;
+}
+.sidebar .box div.item {
+	padding: 0 0 8px
+}
+/* BOX - NEWS*/
+.sidebar.n1 .box.news, .sidebar.n2 .box.news  {
+	padding: 11px 0 0 0;
+}
+/* BOX - FINDER */
+.sidebar .box.finder {
+	border-bottom: 2px solid #FFF;
+	padding: 0;
+	margin: 0;
+}
+.sidebar .box.finder .scroll-pane {
+	height: 252px;
+	overflow: auto
+}
+.sidebar .box.finder h2 {
+	padding: 8px 10px 0;
+}
+.sidebar .box.finder .scroller-wrapper {
+	padding: 5px 0;
+	background: #DB0D15;
+}
+.sidebar .box.finder:focus {
+	outline: none;
+}
+.sidebar.n1 {
+	background-color: #DB0D15;
+	margin: 104px 0 0 0!important;
+	position: relative!important;
+}
+/*
+.sidebar.n2 {
+	background-color: #DB0D15;
+
+} */
+/* BOX - OUR STORY .sidebar .box.our-story .img-wrapper {
+	padding: 5px 0 0
+}
+*/
+/*.sidebar .box.our-story p a {
+	background: url(../img/ico-view.png) no-repeat 100% 1px;
+	padding: 0 15px 0 0
+}
+*/
+/* BOX - DOWNLOADS */
+.sidebar .box.downloads div {
+	background: url(../img/ico-file.html) no-repeat 0 50%;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px
+}
+.sidebar .box.downloads .date {
+	display: block
+}
+.sidebar .box.downloads p a {
+	background: url(../img/ico-view.html) no-repeat 100% 2px;
+	padding: 0 15px 0 0
+}
+.sidebar .box.fact h1 {
+	font-size: 26px;
+	line-height: 26px;
+	font-family: 'FrutigerLTW01-55Roman';
+	margin-bottom: 5px;
+	min-height: 26px;
+}
+.sidebar .box ul.keyfacts {
+}
+.sidebar .box li.keyfact {
+	padding: 9px 0 7px;
+}
+.sidebar .box div.keyfactdesctext {
+	font-size: 1.1em;
+	clear: left;
+}
+.keyfacttext {
+	font-size: 1.6em;
+	line-height: 20px;
+	margin: 0 0 0 5px;
+}
+.keyfactimg {
+	height: 20px;
+	width: 20px;
+	float: left;
+	display: inline;
+	position: relative;
+	vertical-align: middle;
+}
+.sidebar .box img {
+	display: block;
+	margin: 0 auto 3px;
+}
+.content .column .item a.active {
+	color: #DA0C14;
+	background: url(../img/arrow_red_right.png) no-repeat 100% 6px;
+}
+/* BOX - STATEMENT */
+.sidebar .box.statement h1 {
+	font-size: 28px;
+	font-family: 'Frutiger LT W01 65 Bold';
+	line-height: 27px;
+}
+.sidebar .statement blockquote p {
+	font-size: 1.5em;
+	background: url(../img/ico-blockquote.html) no-repeat 0 0;
+	padding: 25px 0 0
+}
+/* ----------------------------------------------------------------------------------------------------------FOOTER---------------------------------------------------------------------------------------------------------- */
+.footer {
+	width: 540px;
+	padding: 0 384px 23px 0; /* jim: was 10px */
+	font-size: 1.1em;
+	clear: both;
+	font-family: 'FrutigerLTW01-45Light';
+}
+
+.ie7 .generic-text-page .footer {
+display:none;
+}
+
+.footer p {
+	color: #9c9e9f;
+	margin: 0 0 5px;
+	font-family: 'FrutigerLTW01-45Light'
+}
+.footer > *:first-child {
+	/*border-top: 1px solid #c5c6c7;
+*/
+	padding-top: 5px;
+}
+.footer ul li {
+	display: inline;
+	border-right: 1px solid #9B9E9F;
+	margin: 0 4px 0 0;
+	padding: 0 5px 0 0
+}
+.footer ul li:last-child {
+	border: 0 none
+}
+.footer ul li a, .footer p a {
+	color: #9c9e9f;
+	font-family: 'FrutigerLTW01-45Light'
+}
+/* ----------------------------------------------------------------------------------------------------------EXTRAS---------------------------------------------------------------------------------------------------------- */
+/* CUSTOM SCROLLBAR */
+.jspContainer {
+	overflow: hidden;
+	position: relative;
+	outline: 0 none;
+}
+.jspPane {
+	position: absolute;
+	margin-top: -8px;
+  -webkit-overflow-scrolling:touch;
+}
+.jspVerticalBar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 6px;
+	height: 100%
+}
+.jspCap {
+	display: none
+}
+.jspTrack {
+	position: relative;
+}
+.jspDrag {
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+.jspArrow {
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer
+}
+.jspArrow.jspDisabled {
+	cursor: default;
+}
+.jspVerticalBar .jspArrow {
+	height: 6px;
+	margin: 0
+}
+.jspVerticalBar .jspArrow:focus {
+	outline: none
+}
+.jspVerticalBar .jspDrag {
+	width: 6px;
+	background: #fff;
+	opacity: 0.4;
+}
+/*  .jspVerticalBar .jspTrack {
+	background: #9D9E9F
+}
+/* */
+.jspArrow.jspDisabled.jspArrowDown {
+	background-position: -21px 0px;
+}
+.jspVerticalBar .jspArrowDown {
+	background: url(../img/dropdown_arrows.png) no-repeat 0px 0px;
+	//bottom: 8px;
+	//position: absolute;
+	//left: 0;
+	width: 7px;
+	height: 14px;
+	margin-bottom: 5px;
+}
+.jspArrow.jspDisabled.jspArrowUp {
+	background-position: -14px;
+}
+.jspVerticalBar .jspArrowUp {
+	background: url(../img/dropdown_arrows.png) no-repeat -7px 0px;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------PAGES---------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------HOME page---------------------------------------------------------------------------------------------------------- */
+.content  h1.homepage-highlight {
+	color: #5E5D5D;
+	font-size: 38px;
+	font-family: 'FrutigerLTW01-55Roman';
+	padding: 42px 0 36px;
+	line-height: 1.2;
+}
+.content  h1.homepage-highlight span {
+	color: #db0d15;
+	font-size: 38px;
+	font-family: 'Frutiger LT W01 65 Bold';
+}
+.home .wrapAll {
+	/*background: url(../img/home-background-1.jpg) fixed no-repeat 50% 104px;
+*/
+	height: 800px;
+	margin: 0;
+}
+.homebg {
+	/*background: url(../img/home-backgrounds-1.jpg) fixed no-repeat 50% 104px;
+*/
+	height: 752px;
+	margin: 0;
+	position: absolute;
+	top: 104px;
+	left: 0;
+	width: 100%;
+	z-index: 200;
+	overflow: hidden;
+}
+
+.ie6 .homebg{
+  display:none;
+  margin-left:-2500px
+}
+
+.homebg div {
+	background-repeat: no-repeat !important;
+	background-position: 50% 0;
+}
+.pabs {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 924px;
+	margin-left: -462px;
+	z-index: 900;
+}
+.home .content .column.fl {
+	width: 720px;
+	padding: 0 0 30px;
+}
+.hp-boxes {
+	float: left;
+  width:275px;
+	margin-right:10px;
+}
+
+.hp-boxes.last {
+	float: left;
+  	width:360px;
+}
+
+.hp-boxes.last p{
+	width: 360px!important;
+	float: left;
+}
+
+
+
+.content .column.fl .hp-boxes a {
+	font-size:17px!important;
+}
+.content .column.fl .hp-boxes p {
+	font-size:17px!important;
+	margin-top:3px!important;
+}
+
+
+
+.hp-boxes a {
+	color: #db0d15;
+	font-size: 15px;
+	font-family: 'Frutiger LT W01 65 Bold';
+	padding: 0 12px 0 0;
+	background: url(../img/arrow_red_right.png) no-repeat center right;
+}
+.home .footer {
+	border: none;
+	position: absolute;
+	top: 869px;
+	background: transparent;
+	left: 50%;
+	margin-left: -462px;
+	z-index: 1000;
+}
+/* ----------------------------------------------------------------------------------------------------------ABOUT US  page---------------------------------------------------------------------------------------------------------- */
+.about-us-landing .fl .type_fl p, .assets-landing .fl .type_fl p {
+	padding-left: 180px;
+}
+/* ----------------------------------------------------------------------------------------------------------TRADING LANDING page---------------------------------------------------------------------------------------------------------- */
+.content .column.fl.products_services_landing .items {
+	margin-top: 5px;
+	margin-left: -6px;
+}
+.content .column.fl.products_services_landing .item {
+	display: inline-block;
+	vertical-align: top;
+	width: 170px;
+	margin: 0 0 0 6px;
+	float: left;
+	height: 199px;
+}
+.content .column.fl.products_services_landing .item.last {
+	margin-right: 0px;
+}
+.content .column.fl.products_services_landing .item img {
+	margin-bottom: 8px;
+}
+.content .column.fl.products_services_landing .item a {
+	margin-bottom: 3px;
+	line-height: 1.35em;
+	font-family: 'FrutigerLTW01-55Roman';
+	font-size: 15px;
+}
+.ie7 .content .column.fl.products_services_landing .item a, .ie6 .content .column.fl.products_services_landing .item a {
+	line-height: 21px;
+	font-weight: normal;
+}
+.content .column.fl.products_services_landing .item a .ic_wrapper {
+	width: 42px;
+	display: block;
+	float: left;
+	text-align: center;
+	height: 2.5em;
+}
+.content .column.fl.products_services_landing .item a .ic_wrapper .icon_s2 {
+	margin: 0 auto;
+}
+.ie7 .content .column.fl.products_services_landing .item {
+	display: inline;
+	zoom: 1;
+}
+#popup-topics a, .content .column.fr .trading-subpage a {
+	color: #5f5e5e;
+	font-size: 11px;
+	line-height: 1.5em;
+	vertical-align: middle;
+	display: block;
+}
+.content .column.fr .trading-subpage .ic_wrapper {
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+.content .column.fr .trading-subpage .link_wrapper {
+	display: inline-block;
+	width: 100px;
+	position: relative;
+	vertical-align: middle;
+	margin: 0.6em 0 0.65em;
+}
+/* ----------------------------------------------------------------------------------------------------------CONTACT-US page---------------------------------------------------------------------------------------------------------- */
+.contact_us .content .column.fl h1 {
+	font-family: 'FrutigerLTW01-55Roman';
+	padding-bottom: 5px;
+}
+.contact_us  h1.highlight {
+	color: #616265;
+	line-height: 25px;
+}
+.contact_us  p.highlight {
+	margin-bottom: 16px!important;
+}
+.content .column.fl.contact_us  h2.higlContinent {
+	display: block;
+	width: 540px;
+	float: left;
+	font-size: 2.0em!important;
+	color: #db0d15;
+	padding-bottom: 1px;
+	margin-bottom: 9px!important;
+	margin-top: -4px!important;
+}
+.contact_us .inner h3 {
+	color: #db0d15;
+	font-family: 'Frutiger LT W01 65 Bold';
+	font-size: 1.05em;
+	padding: 2px 0 1px 0;
+}
+.contact_us  .inner {
+	display: block;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 45px;
+	width: 162px;
+}
+.ie6 .contact_us .inner .fl {
+	float: none;
+	width: 162px;
+}
+.ie6 .contact_us .inner.last {
+	float: left;
+	margin-right: 0;
+	width: 130px;
+}
+.contact_us .inner.first {
+	clear: both;
+}
+.contact_us  .inner.last {
+	display: block;
+	float: left;
+	margin-right: 0;
+	width: 160px;
+}
+.contact_us .redWithArrow {
+	font-size: 1em;
+	font-family: 'Arial';
+}
+.contact_us .inner table {
+	font-size: 1.5em!important;
+	line-height: 1.2em;
+	font-family: 'Arial';
+}
+.contact_us .inner table img {
+	display: block;
+	width: 162px;
+	height: 108px;
+	margin-bottom: 1px;
+}
+.contact_us .inner table td.adress {
+	padding: 0 0 3px 0;
+	line-height: 1.35em;
+}
+.news-type-header {
+	display: block;
+	font-family: 'Frutiger LT W01 65 Bold';
+	color: #db0d15;
+	font-size: 13px;
+	margin-bottom: 12px;
+	margin-top: 7px;
+}
+.news-type-header.bigger {
+	font-size: 15px
+}
+#news-content {
+	display: block;
+	margin-top: 23px;
+}
+.content .column.fl .news-title p.highlight {
+	margin-top: -6px;
+	padding-top: 3px;
+	background: url(../img/content_highlight_bg.html) repeat 0px 0px;
+}
+/* ----------------------------------------------------------------------------------------------------------ASSETS page---------------------------------------------------------------------------------------------------------- */
+#popup-topics ul.asset_type li, .content .column.fr.float .topics ul.asset_type li {
+	margin: 0;
+	padding: 0 0 10px;
+	width: auto;
+}
+.content .column.fr.float ul.asset_type li a {
+	padding: 0 0 8px 0;
+	border-bottom: 1px solid #c5c6c7;
+	margin: 0;
+	display: block;
+	font-size: 1.2em;
+	color: #5f5e5e;
+}
+.content .column.fr.float ul.asset_type li a.active, .content .column.fr.float ul.asset_type li a:hover {
+	border-bottom: 1px solid #db0d15;
+}
+.content .column.fr.float ul.asset_type ul.sub {
+	padding: 9px 0 0;
+	margin: 0 0 10px;
+}
+.content .column.fr.float ul.asset_type ul.sub li {
+	margin: 0 0 12px;
+	padding: 0;
+}
+.content .column.fr.float ul.asset_type ul.sub li a {
+	font-size: 1.1em;
+	padding: 0;
+	height: auto;
+	border: none;
+	color: #7e7c7c;
+}
+.content .column.fr.float ul.asset_type ul.sub li a span.heading {
+	display: block;
+	color: #5f5e5e;
+}
+.content .column.fr.float ul.asset_type ul.sub li a.active, .content .column.fr.float ul.asset_type li a.active span, .content .column.fr.float ul.asset_type ul.sub li a.active span, .content .column.fr.float ul.asset_type ul.sub li a:hover, .content .column.fr.float ul.asset_type ul.sub li a:hover span {
+	color: #db0d15!important;
+}
+.assets-landing .content .column .item {
+	padding-bottom: 27px;
+	margin-bottom:0
+}
+.item_asset img {
+	margin: 1px 14px 7px 0;
+	float: left;
+}
+/* ----------------------------------------------------------------------------------------------------------MEDIA-ROOM page---------------------------------------------------------------------------------------------------------- */
+.content .column.fl.media_room .items {
+	margin-top: 12px;
+	margin-left: -6px;
+}
+.content .column.fl.media_room .item {
+	display: inline-block;
+	vertical-align: top;
+	width: 170px;
+	margin: 0 0 0 6px;
+	float: left;
+}
+.content .column.fl.media_room .item.last {
+	margin-right: 0px;
+}
+.content .column.fl.media_room .item img {
+	margin-bottom: 5px;
+}
+.content .column.fl.media_room .item a {
+	margin-bottom: 3px;
+	line-height: 0.95em;
+	font-family: 'FrutigerLTW01-55Roman';
+	font-size: 15px;
+	position: relative;
+}
+.ie6 .content .column.fl.media_room .item a, .ie7 .content .column.fl.media_room .item a {
+	line-height: 1.3em;
+}
+.content .column.fl.media_room .item a.video_img {
+	height: 117px;
+	width: 170px;
+	display: block;
+}
+.content .column.fl.media_room .date-display-single {
+	line-height: 22px;
+	font-family: 'Arial';
+	font-size: 15px;
+	color: #7e7c7c;
+	display: block;
+}
+.content .column.fl.media_room .heading_wrapper {
+	clear: both;
+	position: relative;
+	padding: 31px 0 4px;
+	border-bottom: 1px solid #c5c6c7;
+}
+
+.media-room-documents-downloads .content .column.fl.media_room .heading_wrapper {
+	border-bottom: none;
+}
+.ie6 .content .column.fl .heading_wrapper, .ie7 .content .column.fl .heading_wrapper {
+	display: inline-block;
+	margin: 31px 0 4px;
+	padding: 0 0 4px;
+}
+.ie6 .content .column.fl.media_room .heading_wrapper h2 {
+	display: block;
+	float: left;
+	border: none;
+}
+.content .column.fl.media_room .heading_wrapper h2 {
+	text-align: left;
+	display: inline-block;
+	margin: 0 100px 0 0 !important;
+	padding: 0;
+	border: none;
+}
+.content .column.fl.media_room .heading_wrapper .viewall {
+	width: 100px;
+	right: 0;
+	bottom: 4px;
+	position: absolute;
+	text-align: right;
+	font-size: 1.5em;
+}
+
+.asset-type .content .viewall {
+	bottom: 4px;
+	text-align: right;
+	font-size: 1.3em;
+  float:left;
+}
+
+.media-room-videos .items .viewall a:hover, .media-room-videos .items .viewall a,
+.media-room-landing .items .viewall a:hover, .media-room-landing .items .viewall a,
+.media-room-documents-downloads .items .viewall a:hover, .media-room-documents-downloads .items .viewall a,
+.contact-us-landing .content .viewall a:hover, .contact-us-landing  .content .viewall a,  .asset-type .content .viewall a:hover, .asset-type .content .viewall a {
+	background:none!important;
+}
+
+.viewall, .viewall a {
+	color: #5f5e5e;
+	font-family: 'FrutigerLTW01-55Roman';
+	display: inline-block;
+}
+.viewall a:hover {
+	color: #DB0D15!important;
+	background: url(../img/arrow_red_right.png) no-repeat right center;
+}
+.viewall a {
+	background: url(../img/arrow_gray_right.png) no-repeat right center;
+	padding-right: 10px;
+}
+.content .column.fl.media_room .item {
+	overflow: hidden;
+	padding-bottom: 13px;
+}
+.content .column.fl.media_room .documents .item {
+	width: 267px;
+}
+.ie6 .content .column.fl.media_room .documents .item {
+	width: 257px;
+}
+.content .column.fl.media_room .documents .item h2 a, .content .column.fl.media_room .documents .item h2 a:hover {
+	background: none;
+}
+.content .column.fl.media_room .documents .item .document-thumb, .content .column.fl.media_room .documents .item .document-content {
+	float: left;
+	margin-right: 6px;
+	display: inline-block;
+}
+.content .column.fl.media_room .documents .item .document-content {
+	width: 150px;
+	vertical-align: top;
+	margin: 0;
+	position: relative;
+	top: -4px;
+}
+.content .column.fl.media_room .item h2 {
+	line-height: 1.35em;
+}
+.content .column.fl.media_room .documents .document-preview, .content .column.fl.media_room .documents .document-download {
+	display: block;
+	font-size: 1.1em;
+	color: #5f5e5e;
+}
+.content .column.fl.media_room .documents .document-download span {
+	background: url(../img/arrow_gray_right.png) no-repeat right center;
+	padding-right: 20px;
+}
+.content .column.fl.media_room .documents .document-preview span {
+	background: url(../img/ic_preview.png) no-repeat right center;
+	padding-right: 20px;
+}
+
+
+.content .column.fl.media_room .documents .document-preview {
+	margin: 0 0 6px 0;
+}
+.content .column.fl.media_room .documents .item .date-display-single {
+	font-size: 1.1em;
+}
+.content .column.fl.media_room .documents h2 {
+	margin: 0 0 6px 0;
+}
+
+.documents a.document-preview{
+	background: url(../img/ic_preview.png) no-repeat right center;
+  width:62px;
+}
+
+.documents a.document-preview:hover{
+  color:#bd0d15!important;
+	background: url(../img/ic_preview_hover.png) no-repeat right center;
+}
+
+.documents a.document-download{
+	background: url(../img/arrow_gray_right.png) no-repeat right center;
+  width:73px;
+}
+
+.documents a.document-download:hover{
+  color:#bd0d15!important;
+	background: url(../img/arrow_red_right.png) no-repeat right center;
+}
+
+
+/*------------------------* Media room- OLD STUFF -----------------------**/
+.media-page h2.subtite {
+	margin-bottom: 10px;
+}
+.content .column.fl .media-page p {
+	margin-bottom: 34px;
+}
+.view-latest-documents, .view-latest-videos, .view-latest-business-news, .view-latest-community-news {
+	margin-top: 16px;
+}
+.view-latest-videos .views-view-grid, .view-latest-business-news .views-view-grid, .view-latest-community-news .views-view-grid {
+	width: 100%;
+	vertical-align: top;
+}
+.views-field-field-thumb-image-fid, .views-field-field-video-thumb-fid {
+	margin-bottom: 4px;
+	margin-right: 24px;
+}
+.view-latest-videos .view-field-title, .view-latest-business-news .views-field-title, .view-latest-community-news .views-field-title {
+	margin-top: 3px;
+	padding-right: 10px;
+	font-family: 'Frutiger LT W01 65 Bold';
+	font-size: 13px;
+	text-decoration: none;
+	color: #db0d15;
+	line-height: 17px;
+	width: 162px;
+}
+.view-latest-videos .views-field-title a, .view-latest-business-news .views-field-title a, .view-latest-community-news .views-field-title a {
+	margin-top: 3px;
+	color: #db0d15;
+	background: url(../img/arrow_h3.png) no-repeat 100% 5px;
+	padding-right: 10px;
+	line-height: 17px;
+	font-size: 13px;
+	font-family: 'Frutiger LT W01 65 Bold';
+	width: 162px;
+}
+.view-latest-videos .field-content {
+	display: block;
+	width: 162px;
+	position: relative;
+}
+.view-latest-videos .views-field-field-video-thumb-fid .easy-video {
+	display: block;
+}
+.view-latest-videos .views-field-field-video-date-value, .view-latest-business-news .views-field-field-news-date-value, .view-latest-community-news .views-field-field-news-date-value {
+	font-size: 13px;
+	margin-bottom: 20px;
+	line-height: 19px;
+}
+.view-latest-videos td, .view-latest-business-news td, .view-latest-community-news td {
+	vertical-align: top;
+}
+.view-latest-videos td {
+	width: 186px;
+}
+.playicon {
+	background: url(../img/playicon.png) no-repeat center 30px;
+	height: 113px;
+	width: 170px;
+	display: block;
+	position: absolute;
+  left: 10px;
+  top: 38px;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.assets-landing  .playicon, .asset-type .playicon{
+  top: 367px;
+}
+
+.sidebar .playicon {
+	background: url(../img/playicon.png) no-repeat center 37px;
+	height: 109px;
+	width: 160px;
+}
+
+.sidebar a:hover .playicon {
+	background: url(../img/playicon.png) no-repeat center -133px;
+}
+
+.items .playicon {
+	top: -37px;
+}
+.ie7 .items .playicon, .ie6 .items .playicon {
+	top: 7px;
+}
+.items .easy-video {
+	display: inline!important;
+}
+a:hover .playicon {
+	background: url(../img/playicon.png) no-repeat center -140px;
+}
+.foldedcorner {
+	background: url(../img/foldedcorner.png) no-repeat;
+	height: 36px;
+	width: 32px;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.views-field-field-document-icon-fid {
+	position: relative;
+	float: left;
+	display: inline;
+	margin-left: -100px;
+	zoom: 1;
+}
+.view-latest-documents td a, .views-latest-documents td a {
+	padding-left: 0 !important;
+}
+.view-latest-documents .views-view-grid {
+	width: 100%;
+}
+.view-latest-documents td, .views-latest-documents td {
+	padding-top: 35px;
+	width: 240px;
+	padding-left: 100px;
+	padding-right: 26px;
+}
+.view-latest-documents tr.row-1 {
+	display: block;
+	width: 540px;
+}
+.view-latest-documents tr.row-2, .view-latest-documents tr.row-3, .view-latest-documents tr.row-4, .view-latest-documents tr.row-5 {
+	display: block;
+	width: 540px;
+}
+.view-latest-documents .views-field-field-document-date-value, .view-latest-documents .views-field-title {
+	overflow: hidden;
+	zoom: 1;
+	font-size: 13px;
+}
+.view-latest-documents .views-field-field-document-date-value {
+	padding-top: 8px;
+}
+.view-latest-documents .views-field-title a {
+	color: #db0d15;
+	line-height: 17px;
+	font-size: 13px;
+	font-family: 'Frutiger LT W01 65 Bold';
+}
+.views-field-field-document-file-fid a {
+	color: #db0d15;
+	line-height: 17px;
+	font-size: 11px;
+	font-family: 'Frutiger LT W01 65 Bold';
+	padding-left: 15px;
+	padding-right: 18px;
+	background: url(../sites/all/themes/mercuria/images/magnifier.html) no-repeat 100% 2px;
+}
+.views-field-field-document-file-fid-1 a {
+	color: #db0d15;
+	line-height: 17px;
+	font-size: 11px;
+	font-family: 'Frutiger LT W01 65 Bold';
+	padding-left: 15px;
+	padding-right: 10px;
+	background: url(../img/arrow_h3.png) no-repeat 100% 3px;
+}
+.view-latest-documents {
+	margin-bottom: 45px;
+}
+.content .column.fl.news h1 {
+	background: url(../img/content_highlight_bg.html) repeat 0px 2727px;
+	font-size: 23px;
+	line-height: 30px;
+	border-bottom: 0px;
+}
+.content .column.fl.vacancy h1 {
+	background: url(../img/content_highlight_bg.html) repeat 0px 2727px;
+	font-size: 23px;
+	line-height: 30px;
+	border-bottom: 0px;
+}
+#dd_assets {
+	/*top: 507px;
+*/
+}
+.news-title {
+}
+.content .column.fr.float .facts h2 {
+}
+.content .column.fl h2.withAnchor {
+	margin-bottom: 16px!important;
+}
+/* ----------------------------------------------------------------------------------------------------------ADMIN---------------------------------------------------------------------------------------------------------- */
+.admin .wrapAll {
+	padding: 15px 0 0
+}
+.admin table td, .admin table th {
+	vertical-align: middle
+}
+.admin .node-form label {
+	display: block;
+	font-size: 13px;
+	margin: 20px 0 10px
+}
+.admin .node-form input.form-text, .admin .node-form textarea.form-textarea {
+	padding: 5px;
+	font: normal 13px/1.3 Arial, Tahoma, sans-serif;
+	background: #fff;
+	border: 1px solid #CACCCA;
+	margin: 10px 0 20px
+}
+.admin .node-form textarea.form-textarea {
+	margin-bottom: 0
+}
+.admin .teaser-checkbox, .admin .body-field-wrapper p, input#edit-preview {
+	display: none
+}
+.admin .node-form .standard {
+	overflow: hidden;
+	border-bottom: 1px solid #5F696F;
+	padding: 0 0 15px;
+	margin: 0 0 15px
+}
+.admin .node-form .standard fieldset {
+	padding: 15px;
+	background: #ECECEC;
+	margin: 15px 0;
+	border: 1px solid #F8F8F8;
+	width: 478px
+}
+.admin legend {
+	font-size: 15px;
+	font-weight: bold
+}
+.admin .node-form .standard  select.form-select {
+	padding: 5px;
+	font: normal 13px/1.3 Arial, Tahoma, sans-serif
+}
+.admin .node-form .filefield-element .widget-edit {
+	max-width: 100%
+}
+.admin .node-form .standard .filefield-upload {
+	margin: 0 0 10px
+}
+.admin .node-form .filefield-element, .admin  .node-form .filefield-element .widget-edit .form-item {
+	margin: 0
+}
+.admin .node-form .form-item .description {
+	font-size: 12px;
+	font-style: italic;
+	line-height: 1.3
+}
+.admin input#edit-submit, .admin input#edit-delete {
+	padding: 5px;
+	font: bold 16px/1.3 Arial, Tahoma, sans-serif;
+	margin: 0 15px 0 0
+}
+.admin .node-form .form-item {
+	font-size: 12px
+}
+.admin .node-form .filefield-element .widget-preview {
+	max-width: 50%
+}
+.admin .node-form .filefield-element .filename {
+	margin: 0 0 5px
+}
+.admin .node-form .filefield-element .filesize, .admin .node-form .filefield-element .filename, .admin .node-form .filefield-element .filemime {
+	font-style: italic;
+	padding: 2px 0
+}
+.admin .node-form .standard fieldset.group-case-studie, .node-form .standard fieldset.group-services {
+	float: none;
+	width: 950px;
+	margin: 15px 0
+}
+.admin .node-form .standard fieldset.group-services .form-item {
+	float: left;
+	width: 100px;
+	margin: 0
+}
+.admin .node-form .standard fieldset.group-services .form-item label {
+	margin-top: 0
+}
+.admin .sticky-table {
+	font-size: 13px;
+	margin: 15px 0
+}
+.admin .sticky-table td, .admin  .sticky-table th {
+	padding: 10px
+}
+.admin .sticky-table th {
+	border: 0 none
+}
+.admin .description {
+	font-size: 12px;
+	font-style: italic;
+	margin: 10px 0;
+	line-height: 1.4
+}
+.admin .content-add-more {
+	padding: 20px 0 0
+}
+.admin .content-add-more input {
+	font-weight: bold
+}
+.admin .node-form div.warning {
+	font-size: 13px;
+	padding: 10px;
+	margin: 15px 0
+}
+.admin #user-login label {
+	display: block;
+	margin: 0 0 10px;
+	font-weight: bold
+}
+.admin #user-login {
+	width: 500px;
+	padding: 15px;
+	background: #ECECEC;
+	margin: 15px 0;
+	border: 1px solid #F8F8F8;
+	font-size: 13px
+}
+.admin #user-login .description {
+	font-size: 11px;
+	font-style: italic;
+	margin: 5px 0 15px
+}
+.admin #user-login input.form-text {
+	padding: 5px;
+	font: normal 13px/1.3 Arial, Tahoma, sans-serif;
+	background: #fff;
+	border: 1px solid #CACCCA;
+	width: 490px
+}
+.admin .profile {
+	width: 500px;
+	padding: 15px;
+	background: #ECECEC;
+	margin: 15px 0;
+	border: 1px solid #F8F8F8;
+	font-size: 13px
+}
+.admin .profile h3 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 15px;
+	padding: 0 0 15px
+}
+.admin .profile dl.user-member {
+	font-size: 13px
+}
+.admin .profile dl.user-member dt {
+	margin: 0 0 5px
+}
+.node-form .text {
+	width: 90% !important
+}
+/*Less*/
+#europemap {
+	cursor: url("../img/magnifier_cursor.html"), default;
+	/*filter: alpha(opacity=0);
+*/
+	background: none !important;
+	border: 0 !important;
+}
+#europemap.mhover {
+	border: 1px solid #db0d15 !important;
+	background: url(../img/europe_background.html) !important;
+	-webkit-box-shadow: 0px 0px 5px rgba(204, 9, 47, 0.25);
+	-moz-box-shadow: 0px 0px 5px rgba(204, 9, 47, 0.25);
+	box-shadow: 0px 0px 5px rgba(204, 9, 47, 0.25);
+}
+.content .column.fl {
+	-webkit-font-smoothing: antialiased;
+}
+.bx-wrapper {
+	padding-top: 4px;
+	margin-bottom: 11px;
+}
+.bx-wrapper .bx-next, .bx-wrapper .bx-prev {
+	text-indent: -100px;
+	width: 10px;
+	height: 10px;
+	float: right;
+	overflow: hidden;
+	position: absolute;
+	right: -3px;
+	top: 250px;
+}
+.bx-wrapper .bx-next {
+	background: url(../img/arrow_right.png) no-repeat center center;
+}
+.bx-wrapper .bx-prev {
+	right: 25px;
+	background: url(../img/arrow_left.png) no-repeat center center;
+}
+.bx-wrapper .bx-captions {
+	color: #9c9e9f;
+	font-family: 'FrutigerLTW01-55Roman';
+	font-size: 11px;
+	padding: 5px 0 5px 0;
+}
+.content .column.fl.aboutus_subpage .item {
+	padding-bottom: 7px;
+}
+.content .column.fl.aboutus_subpage .item h2 a {
+	background: none;
+	line-height: 0;
+}
+.content .column.fl.aboutus_subpage p {
+	margin-bottom: 10px;
+}
+.content .column.fl.aboutus_subpage .item {
+	padding-bottom: 7px;
+}
+.content .column.fl.aboutus_subpage .item h2 {
+	line-height: 1;
+}
+.content .column.fl.aboutus_subpage .item h2.noborder {
+	margin-top: 1px;
+	margin-bottom: 2px;
+}
+.content .column.fl.aboutus_subpage .item h2 a {
+	background: none;
+}
+.content .column.fl.aboutus_subpage .subtitle {
+	border-bottom: 1px solid #9C9E9F;
+	font-size: 19px;
+	padding-bottom: 1px;
+	margin-bottom: 13px;
+}
+.content .column.fl.aboutus_subpage .subtitle.withAnchor a {
+	display: block;
+	padding-top: 10px;
+}
+.content .column.fl.product {
+	background: none;
+}
+.content .column.fl.asset_type .subtitle {
+	border: 0;
+}
+.content .column.fl.community_landing .item {
+	padding-bottom: 20px;
+}
+.content .column.fl.community_landing .item h2 {
+	line-height: 1;
+	margin: 0px 0 3px;
+}
+.content .column.fl.community_landing .item h2 a {
+	background: none;
+	line-height: 1;
+}
+.content .column.fl div:first-child h2 {
+	margin-top: 0px;
+}
+.content .column.fl h2 {
+	border: none;
+	font-size: 14px;
+	margin-top: 18px;
+	margin-bottom: 3px;
+	color: #db0d15;
+	font-family: 'Frutiger LT W01 65 Bold';
+	letter-spacing: -0.015em;
+}
+
+.people-vacancy .content .column.fl h2 {
+	margin-top: 8px;
+}
+
+.content .column.fl h2.first {
+
+	margin: 38px 0 0px 0 !important;
+}
+.content .column.fl h2.subtitle {
+	font-size: 20px;
+	padding-bottom: 4px;
+	margin: 38px 0 0px 0 !important;
+	border-bottom: 1px solid #c5c6c7;
+	display: block;
+}
+.ie6 .content .column.fl h2 {
+	border: none;
+}
+.aboutus-subpage .content .column.fl h2.subtitle {
+	margin: 18px 0 9px 0 !important;
+}
+.content .column.fl h2.subtitle a {
+	color: #db0d15;
+}
+.content .column.fl h2.subtitle a:hover {
+	text-decoration: none;
+	color: #db0d15;
+}
+.content .column.fl h2.noborder {
+	/*margin-top: 4px;
+*/
+	margin-bottom: 0px;
+}
+.content .column.fl .continents {
+	overflow: hidden;
+	width: 555px;
+}
+.content .column.fl .continents h3, .content .column.fl a.title {
+	font-size: 13px;
+	line-height: 16px;
+	color: #db0d15;
+	background: url(../img/arrow_h3.png) no-repeat 100% 6px;
+	display: inline-block;
+	padding-right: 9px;
+	padding-bottom: 3px;
+	margin-top: 10px;
+}
+.content .column.fl a.title {
+	margin-top: 1px;
+}
+.content .column.fl a.title {
+	font-family: 'Frutiger LT W01 65 Bold';
+}
+.content .column.fl .continents p {
+	margin-bottom: 3px;
+	line-height: 1.1;
+}
+.content .column.fl .continents .item {
+	float: left;
+	width: 160px;
+	margin-right: 25px;
+	margin: 15px 25px 15px 0;
+}
+.content .column.fl .continents .item img {
+	width: 100%;
+	height: 110px;
+	margin-bottom: 1px;
+}
+.content .column.fr {
+	width: 160px;
+	position: relative;
+}
+.asset {
+	overflow: hidden;
+	font-family: 'FrutigerLTW01-55Roman';
+}
+.asset * {
+	font-family: 'FrutigerLTW01-55Roman';
+}
+.asset .logo {
+	width: 170px;
+	height: 110px;
+	margin: 0 20px 0 0;
+}
+.asset .desc {
+	width: 360px;
+	margin-top: 3px;
+}
+.asset .desc h3 {
+	font-size: 22px;
+}
+.asset .desc .loc {
+	color: #616265;
+	font-size: 16px;
+}
+.asset .desc p {
+	line-height: 24px;
+	margin-top: 5px;
+}
+.asset .params {
+	clear: both;
+	font-size: 13px;
+}
+.asset .params .row {
+	border-top: 1px solid #d0d2d3;
+	line-height: 30px;
+	padding-top: 5px;
+	overflow: hidden;
+}
+.asset .params .row .th {
+	color: #db0d15;
+	width: 170px;
+	float: left;
+}
+.asset .params .row .list {
+	list-style: none;
+	color: #616265;
+}
+.asset .params .row .list li {
+	background: url(../img/ul_red.html) no-repeat 0px 13px;
+	padding-left: 20px;
+}
+.content .column img.fl {
+	margin: 4px 6px 3px 0;
+}
+#news-content img.fl {
+	margin-bottom: 0;
+}
+.type_fl img {
+	margin: 5px 7px 0 0 !important;
+	float: left;
+}
+.type_fl h2 img.icon_s2 {
+	margin: 0 11px 3px 0 !important;
+	float: none;
+	vertical-align: text-bottom;
+}
+.type_fr h2 img.icon_s2 {
+	margin: 0 11px 3px 0 !important;
+	float: none;
+	vertical-align: text-bottom;
+}
+.type_fr img {
+	margin: 4px 0px 0px 10px;
+	float: right;
+}
+.content .column img.fr {
+	margin: 4px 0px 0px 10px;
+}
+.content .column .item {
+	overflow: hidden;
+	margin-bottom: 38px;
+}
+
+.aboutus-subpage .content .column .item {
+	overflow: hidden;
+	margin-bottom: 0;
+	padding-bottom:0;
+}
+
+.content .column .item-intext {
+	padding-bottom: 15px;
+}
+.content .column .item img.fl {
+	padding-right: 0;
+}
+.ie6 .content .column img.fl {
+	width: 170px;
+}
+.content .column .item img.fr {
+	padding-left: 5px;
+}
+.content .column.fr .facts.aboutus h2 {
+	border: 0;
+}
+.content .column .item h2 {
+	font-size: 15px;
+	border: 0;
+	display: inline-block;
+	color: #db0d15;
+	line-height: 1.4;
+	margin-bottom: -2px;
+	margin-top: 0;
+}
+.redWithArrow, .content .column .item h2 a {
+	background: url(../img/arrow_h3.png) no-repeat 100% 6px;
+	padding-right: 20px;
+	font-family: 'Frutiger LT W01 65 Bold';
+	text-decoration: none;
+	color: #db0d15;
+}
+.ie6 .content .column .item h2 a, .ie7 .content .column .item h2 a {
+	display: inline-block;
+}
+.content .column .item h2 a {
+	color: #5f5e5e;
+	background: url(../img/arrow_gray_right.png) no-repeat 100% 6px;
+}
+.ie7 .assets-landing .content .column .item h2 a, .ie6 .assets-landing .content .column .item h2 a, .ie7 .assets-landing .content .column .item h2 a:hover, .ie6 .assets-landing .content .column .item h2 a:hover {
+	background: none;
+	padding-right: 0;
+}
+.ie7 .assets-landing .content .column .item h2 a .wrap_title, .ie6 .assets-landing .content .column .item h2 a .wrap_title {
+	background: url(../img/arrow_gray_right.png) no-repeat 100% 6px;
+	padding-right: 20px;
+}
+.ie7 .assets-landing .content .column .item h2 a:hover .wrap_title, .ie6 .assets-landing .content .column .item h2 a:hover .wrap_title {
+	background: url(../img/arrow_red_right.png) no-repeat 100% 6px;
+	padding-right: 20px;
+}
+.content .column .item h2 a:hover {
+	color: #db0d15;
+	background-image: url(../img/arrow_red_right.png);
+}
+.content .column .item h2 a.noarrow {
+	background: none;
+}
+.redWithArrow {
+	font-size: 13px;
+	line-height: 17px;
+	padding-right: 10px;
+	display: inline-block;
+}
+.redWithArrow.global {
+	margin: 3px 0 20px;
+}
+.inner .redWithArrow {
+	padding-right: 10px;
+	line-height: 17px;
+	font-weight: normal;
+}
+.content .column.fr.float .facts {
+	margin-top: 12px;
+	font-size: 10px;
+}
+.content .column.fr.float .facts h2 {
+	font-size: 12px;
+	margin-bottom: 7px;
+}
+.content .column.fr.float .facts ul li {
+	margin-bottom: 11px;
+}
+#popup-topics, .content .column.fr.float .topics {
+	margin-left: 5px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.content .column.fr.float .topics .ic_wrapper {
+	width: 34px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	margin: 0px;
+}
+.content .column.fr.float .topics .ic_wrapper img {
+	margin: 0 0 0 5px;
+}
+.content .column.fr.float .topics .link_wrapper {
+	display: inline-block;
+	vertical-align: middle;
+	width: 110px;
+}
+.content .column.fr.float li {
+	clear: left;
+}
+.content .column.fr.float .fixed {
+	position: fixed;
+	top: 124px;
+	left: auto;
+	width: 155px;
+}
+.grey {
+	color: #616265
+}
+#popup-topics {
+	left: 600px;
+}
+
+.back_to_top:hover {
+	text-decoration: none;
+	color: #db0d15;
+	background-image: url(../img/arrow_up.png)!important;
+}
+
+#popup-topics ul, .content .column.fr.float .topics ul {
+	margin-bottom: 10px;
+}
+#popup-topics ul li, .content .column.fr.float .topics ul li {
+	list-style: none;
+	margin-bottom: 8px;
+	width: 140px
+}
+#popup-topics h2, .content .column.fr.float .topics h2 {
+	border: 0;
+	font-size: 1.2em;
+	margin: 4px 0 6px 0;
+}
+.content .column.fr.floatx .topics h2 {
+	border: 0;
+}
+.floatx #backtotop {
+	display: none!important;
+}
+.content .column.fr .offices {
+	margin-bottom: 31px;
+}
+.content .column.fr .offices h2 {
+	border: 0;
+}
+#popup-topics a, .content .column.fr a {
+	color: #7e7c7c;
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+#popup-topics a:hover, .content .column.fr a:hover, .content .column.fr a.active {
+	color: #db0d15!important;
+}
+#popup-topics ul li, .content .column.fr ul li {
+	margin-bottom: 7px;
+}
+#popup-topics .back_to_top, .content .column.fr .back_to_top {
+	display: block;
+	font-size: 11px;
+	float: left;
+	color: #5f5e5e;
+	cursor: pointer;
+	margin: 3px 0 5px;
+	padding: 0 0 5px;
+	font-family: 'FrutigerLTW01-55Roman';
+	display: block;
+	margin-top: 9px;
+	padding: 1px 0 0 12px;
+	background: url(../img/arrow_gray_up.png) no-repeat left center;
+}
+.content .column.fr .back_to_top.nomargin {
+	margin-top: 0;
+}
+
+.people-vacancy .content .column.fr .back_to_top{
+	margin-top: -20px;
+}
+
+#popup-topics .back_to_top:hover, .content .column.fr .back_to_top:hover {
+	color: #db0d15;
+}
+ul.nav li ul.assets {
+	left: -300px;
+	width: 710px;
+}
+ul.nav li ul.assets li {
+	padding-top: 5px;
+	padding-left: 20px;
+	float: left;
+	width: 150px;
+	display: inline;
+}
+ul.nav li ul.assets li a {
+	font-family: 'FrutigerLTW01-55Roman';
+	font-size: 13px;
+}
+ul.nav li ul.assets li.active a, ul.nav li ul.assets li:hover a {
+	color: #db0d15;
+}
+ul.nav li ul.assets li.active ul a, ul.nav li ul.assets li:hover ul a {
+	color: #616265;
+}
+ul.nav li ul.assets li.active ul a:hover, ul.nav li ul.assets li:hover ul a:hover {
+	color: #db0d15;
+}
+ul.nav li ul.assets li.coalmining {
+	width: 85px;
+}
+ul.nav li ul.assets li.coalmining ul, ul.nav li ul.assets li.coalmining li {
+	width: 85px;
+}
+ul.nav li ul.assets li.logistics {
+	width: 210px;
+}
+ul.nav li ul.assets li.logistics ul, ul.nav li ul.assets li.logistics li {
+	width: 210px;
+}
+ul.nav li ul.assets li.biofuelrefinery {
+	width: 135px;
+}
+ul.nav li ul.assets li.biofuelrefinery ul, ul.nav li ul.assets li.biofuelrefinery li {
+	width: 135px;
+}
+ul.nav li ul.assets li ul {
+	visibility: hidden;
+	overflow: hidden;
+	background: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-bottom: 0;
+	padding-left: 0;
+	position: static;
+	z-index: auto;
+	line-height: 1.3;
+}
+ul.nav li ul.assets li ul li {
+	padding: 1px 0;
+}
+ul.nav li ul.assets li ul li a {
+	font-size: 11px;
+	font-family: 'FrutigerLTW01-45Light';
+}
+ul.nav li.hover ul.assets li ul {
+	visibility: visible;
+}
+#dd_assets ul {
+	margin-bottom: 4px !important;
+	overflow: hidden;
+}
+#dd_assets ul li {
+	width: 155px;
+	margin-bottom: 11px;
+	line-height: 14px;
+}
+#dd_assets ul li a {
+	font-size: 11px;
+	font-family: 'Arial';
+	display: block;
+}
+
+
+.aboutus-subpage #dd_assets ul li a {
+	font-size: 11px;
+	font-family: 'Arial';
+	display: inline;
+}
+
+#dd_assets ul.active {
+	padding-bottom: 0px;
+}
+#dd_assets ul li a span {
+	font-family: 'Arial';
+	color: #9C9E9F;
+	font-size: 11px;
+	display: block;
+}
+#dd_assets h2 {
+	border-bottom: 1px solid #dedede;
+	width: 155px;
+	margin-bottom: 8px;
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: bold;
+}
+
+.news-business #dd_assets h2, .news-community #dd_assets h2  {
+	font-weight: normal;
+}
+
+#dd_assets h2.active a {
+	color: #db0d15;
+	/*background: url(../img/arrow_down.png) no-repeat center right;
+*/
+}
+#dd_assets h2 a {
+	padding-right: 10px;
+	color: #4E5052;
+	/*background: url(../img/arrow_gray_inactive.png) no-repeat center right;
+*/
+	display: inline-block;
+}
+#dd_assets h2 a:hover {
+	text-decoration: none;
+	color: #db0d15;
+}
+.sidebar .box.finder .scroll-pane div.item {
+	line-height: 1.15em;
+	padding: 8px 0 0;
+	margin: 0 10px;
+	color: #ffffff;
+	font-size: 1.1em;
+}
+.sidebar .box.finder .scroll-pane h3.title {
+	font-family: 'Arial';
+	line-height: 1;
+	padding: 6px 3px 0 1px;
+	margin: 0 10px;
+	color: #fff;
+	border-bottom: 1px solid #ffffff;
+	margin-bottom: 0;
+	line-height: 16px;
+	font-size: 1.1em;
+}
+.sidebar .box.finder .scroll-pane div.item span a.rightColumnNode {
+	color: #D0D2D2
+}
+.sidebar .box.finder .scroll-pane div.item:hover a {
+	color: #fff;
+}
+.sidebar .box.finder .scroll-pane div.item p {
+	color: #fff;
+	line-height: 1.2;
+	font-size: 1em;
+}
+.sidebar .box.finder .scroll-pane div.item h3 {
+	font-family: 'Arial';
+	margin-bottom: 0;
+	line-height: 1.2em;
+}
+.sidebar .box.finder .scroll-pane div.item h3 a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.sidebar .box.finder .scroll-pane div.item span, .sidebar .box.finder .scroll-pane div.item span a {
+	color: #fadbdc;
+}
+.sidebar .box.finder .scroll-pane div.item:last-child {
+	border: 0 none;
+	padding-bottom: 5px;
+}
+.sidebar .box.finder .scroll-pane .jspVerticalBar {
+	right: 10px;
+}
+.sidebar .box.finder .scroller-wrapper {
+	padding: 7px 0 0px;
+}
+.content .item_asset {
+	margin-bottom: 20px;
+	border-top: 1px solid #9C9E9F;
+	margin-top: 1px;
+	padding-top: 13px;
+}
+.content .item_asset h3 {
+	letter-spacing: -0.015em;
+	max-width: 500px;
+	line-height: 24px;
+	margin: 0 0 5px;
+	font-size: 20px;
+	color: #616265;
+	font-family: 'Frutiger LT W01 65 Bold';
+	font-weight: normal;
+}
+.content .item_asset h3 a:hover {
+	text-decoration: none;
+	color: #000;
+}
+.content .item_asset h4 {
+	width: 100%;
+	font-size: 15px;
+	color: #717273;
+	margin: 0 5px;
+	font-family: 'Frutiger LT W01 65 Bold';
+	font-weight: normal;
+}
+.content .item_asset p {
+	font-size: 15px;
+}
+.content .item_asset table {
+	clear: both;
+	width: 100%;
+	font-size: 13px;
+}
+.content .item_asset table {
+	margin: 10px 0;
+	clear: both;
+	overflow: hidden;
+}
+.content .item_asset table th {
+	text-align: left;
+	color: #db0d15;
+	font-weight: normal;
+	font-family: 'FrutigerLTW01-45Light';
+	width: 161px;
+	font-size: 13px;
+}
+.content .item_asset table th, .content .item_asset table td {
+	padding: 4px 0;
+	vertical-align: top;
+	line-height: 19px;
+}
+.content .item_asset table td span {
+	display: block;
+	background: url(../img/item-td-sep.png) no-repeat 0 9px;
+	padding: 0 0 6px 17px;
+}
+.popupPic {
+	overflow: hidden;
+	width: 280px;
+}
+.popupPic .pic {
+	float: left;
+}
+.popupPic .copy {
+	width: 150px;
+}
+.popupPic .copy h4 {
+	width: 150px;
+	font-family: "Myriad Pro", 'Frutiger LT W01 65 Bold';
+	font-size: 15px;
+	margin-top: 2px;
+}
+.popupPic .copy h5 {
+	width: 150px;
+	color: #4E5052;
+	font-family: "Myriad Pro", 'Frutiger LT W01 65 Bold';
+	font-size: 12px;
+	margin: 3px 0 3px;
+}
+.popupPic .copy .more {
+	font-size: 11px;
+	color: #db0d15;
+	background: url(../img/arrow_h3.png) no-repeat 100% 2px;
+	display: inline-block;
+	padding-right: 9px;
+}
+.officehub-img {
+	width: 22px!important;
+	height: 11px!important;
+	display: inline!important;
+	margin-bottom: 3px!important;
+}
+
+.contact-us-landing td.noblack a{
+  color: #5F5E5E;
+}
+/* Click */
+/*.ie7 a * {
+	cursor: pointer;
+}
+.ie7 a img {
+behavior: expression(function(element) {
+element.onclick = function() {
+	this.parentNode.click()
+}
+	;
+	element.runtimeStyle.behavior = "none";
+}
+	(this));
+	cursor:pointer;
+}
+*/
+.tabs.primary {
+	text-align: left;
+	color: #5E6971
+}
+.tabs.primary li {
+	color: #5E6971
+}
+.tabs.primary li.active {
+	color: #5E6971;
+	background: none;
+	padding: 0 1em
+}
+#slider li {
+	width: 534px;
+}
+#tabs-wrapper {
+	margin-left: -4px
+}
+.pbz {
+	padding-bottom: 0!important;
+}
+.noslider {
+	margin-bottom: 20px;
+}
+.column.fl p a {
+	font-family: 'Frutiger LT W01 65 Bold';
+	margin-top: 1px;
+  text-decoration: none;
+	color: #db0d15;
+	background: url(../img/arrow_h3.png) no-repeat 100% 6px;
+	display: inline-block;
+	padding-right: 9px;
+	padding-bottom: 3px;
+}
+.easy-video {
+	position: relative;
+	display: inline-block;
+}
+
+.aboutus-subpage .content .fl .easy-video {
+	position: relative;
+	display: inline-block;
+	float:left;
+	margin:4px 6px 3px 0;
+}
+
+.graduates .easy-video .playicon {
+	width: 170px;
+	background-position: 70px center;
+	height: 128px;
+}
+/* LANG MENU */
+#langs {
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+}
+#langs a {
+	margin-left: 5px;
+}
+/* POPUP */
+#popup-content {
+	width: 720px;
+	padding: 0 30px;
+	float: none;
+	display: block;
+}
+#popup-header {
+	width: 100%;
+	overflow: hidden;
+}
+#popup-header #logo {
+	float: left;
+	display: inline;
+	margin: 0;
+}
+#popup-header #links {
+	float: right;
+	display: inline;
+	margin: 0;
+	font-size: 14px;
+	text-align: right;
+}
+#popup-header #links a {
+	color: #616265;
+}
+#popup-header #links .bold {
+	display: block;
+	font-weight: normal;
+}
+#popup-header #links a:hover {
+	color: #db0d15 !important;
+}
+#popup-content .main-img {
+	margin: 15px 0 20px;
+}
+#popup-topics h2 {
+	border: none;
+	margin: 8px 0 5px;
+}
+#popup-content .video, #popup-content #video-content_wrapper {
+	margin: 5px 0 10px;
+}
+/* ----------------------------------------------------------------------------------------------------------ICONS---------------------------------------------------------------------------------------------------------- */
+.icon_s1 {
+	background: url(../img/icons_s1.png) no-repeat top left;
+}
+.icon_s2 {
+	background: url(../img/icons_s2.png) no-repeat top left;
+}
+.icon_s3 {
+	background: url(../img/icons_s3.png) no-repeat top left;
+}
+.ic_s2_assets_biofuel-refinery {
+	background-position: 0 0;
+	width: 31px;
+	height: 25px;
+}
+.ic_s2_assets_coal-mining {
+	background-position: -61px 0;
+	width: 36px;
+	height: 25px;
+}
+.ic_s2_assets_infrastructure-logistics {
+	background-position: -127px 0;
+	width: 40px;
+	height: 21px;
+}
+.ic_s2_assets_upstream-oil-gas {
+	background-position: -197px 0;
+	width: 26px;
+	height: 25px;
+}
+.ic_s2_trading_base-metals {
+	background-position: -253px 0;
+	width: 29px;
+	height: 28px;
+}
+.ic_s2_trading_biofuels {
+	background-position: -312px 0;
+	width: 21px;
+	height: 31px;
+}
+.ic_s2_trading_coal {
+	background-position: -363px 0;
+	width: 39px;
+	height: 18px;
+}
+.ic_s2_trading_crude-oil {
+	background-position: -432px 0;
+	width: 15px;
+	height: 25px;
+}
+.ic_s2_trading_dry-bulk {
+	background-position: -477px 0;
+	width: 28px;
+	height: 25px;
+}
+.ic_s2_trading_environmental-markets {
+	background-position: -535px 0;
+	width: 36px;
+	height: 23px;
+}
+.ic_s2_trading_fuel-oil {
+	background-position: -601px 0;
+	width: 30px;
+	height: 26px;
+}
+.ic_s2_trading_gasoline-naphtha {
+	background-position: -661px 0;
+	width: 26px;
+	height: 28px;
+}
+.ic_s2_trading_iron-ore {
+	background-position: -717px 0;
+	width: 41px;
+	height: 20px;
+}
+.ic_s2_trading_lng {
+	background-position: -788px 0;
+	width: 35px;
+	height: 18px;
+}
+.ic_s2_trading_middle-distillates {
+	background-position: -853px 0;
+	width: 22px;
+	height: 26px;
+}
+.ic_s2_trading_natural-gas {
+	background-position: -905px 0;
+	width: 19px;
+	height: 28px;
+}
+.ic_s2_trading_power {
+	background-position: -954px 0;
+	width: 23px;
+	height: 25px;
+}
+.ic_s2_trading_soft-commodities {
+	background-position: -1007px 0;
+	width: 31px;
+	height: 24px;
+}
+.ic_s2_trading_lpg {
+	background-position: -1062px  0;
+	width: 31px;
+	height: 24px;
+}
+.ic_s2_trading_petro-chemicals {
+	background-position: -1113px  0;
+	width: 31px;
+	height: 31px;
+}
+
+.ic_s2_trading_bunkering-maritime {
+	background-position: -1153px  0;
+	width: 31px;
+	height: 31px;
+}
+
+
+  a:hover .ic_s2_trading_bunkering-maritime, .active .ic_s2_trading_bunkering-maritime {
+  	background-position: -1153px -48px;
+  }
+
+a:hover .ic_s2_assets_biofuel-refinery, .active .ic_s2_assets_biofuel-refinery {
+	background-position: 0 -50px;
+}
+a:hover .ic_s2_assets_coal-mining, .active .ic_s2_assets_coal-mining {
+	background-position: -61px -50px;
+}
+a:hover .ic_s2_assets_infrastructure-logistics, .active .ic_s2_assets_infrastructure-logistics {
+	background-position: -127px -50px;
+}
+a:hover .ic_s2_assets_upstream-oil-gas, .active .ic_s2_assets_upstream-oil-gas {
+	background-position: -197px -50px;
+}
+a:hover .ic_s2_trading_base-metals, .active .ic_s2_trading_base-metals {
+	background-position: -253px -50px;
+}
+a:hover .ic_s2_trading_biofuels, .active .ic_s2_trading_biofuels {
+	background-position: -312px -50px;
+}
+a:hover .ic_s2_trading_coal, .active .ic_s2_trading_coal {
+	background-position: -363px -50px;
+}
+a:hover .ic_s2_trading_crude-oil, .active .ic_s2_trading_crude-oil {
+	background-position: -432px -50px;
+}
+a:hover .ic_s2_trading_dry-bulk, .active .ic_s2_trading_dry-bulk {
+	background-position: -477px -50px;
+}
+a:hover .ic_s2_trading_environmental-markets, .active .ic_s2_trading_environmental-markets {
+	background-position: -535px -50px;
+}
+a:hover .ic_s2_trading_fuel-oil, .active .ic_s2_trading_fuel-oil {
+	background-position: -601px -50px;
+}
+a:hover .ic_s2_trading_gasoline-naphtha, .active .ic_s2_trading_gasoline-naphtha {
+	background-position: -661px -50px;
+}
+a:hover .ic_s2_trading_iron-ore, .active .ic_s2_trading_iron-ore {
+	background-position: -717px -50px;
+}
+a:hover .ic_s2_trading_lng, .active .ic_s2_trading_lng {
+	background-position: -788px -50px;
+}
+a:hover .ic_s2_trading_middle-distillates, .active .ic_s2_trading_middle-distillates {
+	background-position: -853px -50px;
+}
+a:hover .ic_s2_trading_natural-gas, .active .ic_s2_trading_natural-gas {
+	background-position: -905px -50px;
+}
+a:hover .ic_s2_trading_power, .active .ic_s2_trading_power {
+	background-position: -954px -50px;
+}
+a:hover .ic_s2_trading_soft-commodities, .active .ic_s2_trading_soft-commodities {
+	background-position: -1007px -50px;
+}
+a:hover .ic_s2_trading_lpg, .active .ic_s2_trading_lpg {
+	background-position: -1062px -50px;
+}
+a:hover .ic_s2_trading_petro-chemicals, .active .ic_s2_trading_petro-chemicals {
+	background-position: -1113px  -50px;
+}
+.ic_s3_assets_biofuel-refinery {
+	background-position: 0 0;
+	width: 22px;
+	height: 18px;
+}
+.ic_s3_assets_coal-mining {
+	background-position: -52px 0;
+	width: 24px;
+	height: 18px;
+}
+.ic_s3_assets_infrastructure-and-logistics {
+	background-position: -106px 0;
+	width: 24px;
+	height: 12px;
+}
+.ic_s3_assets_upstream-oil-and-gas {
+	background-position: -160px 0;
+	width: 22px;
+	height: 24px;
+}
+.ic_s3_trading_base-metals {
+	background-position: -212px 0;
+	width: 26px;
+	height: 25px;
+}
+.ic_s3_trading_biofuels {
+	background-position: -268px 0;
+	width: 19px;
+	height: 26px;
+}
+.ic_s3_trading_coal {
+	background-position: -317px 0;
+	width: 32px;
+	height: 14px;
+}
+.ic_s3_trading_crude-oil {
+	background-position: -379px 0;
+	width: 13px;
+	height: 20px;
+}
+.ic_s3_trading_dry-bulk {
+	background-position: -422px 0;
+	width: 22px;
+	height: 18px;
+}
+.ic_s3_trading_environmental-markets {
+	background-position: -474px 0;
+	width: 31px;
+	height: 21px;
+}
+.ic_s3_trading_fuel-oil {
+	background-position: -535px 0;
+	width: 24px;
+	height: 21px;
+}
+.ic_s3_trading_gasoline-naphtha {
+	background-position: -589px 0;
+	width: 20px;
+	height: 21px;
+}
+.ic_s3_trading_iron-ore {
+	background-position: -639px 0;
+	width: 32px;
+	height: 16px;
+}
+.ic_s3_trading_lng {
+	background-position: -698px 0;
+	width: 32px;
+	height: 16px;
+}
+.ic_s3_trading_middle-distillates {
+	background-position: -761px 0;
+	width: 18px;
+	height: 21px;
+}
+.ic_s3_trading_natural-gas {
+	background-position: -809px 0;
+	width: 15px;
+	height: 20px;
+}
+.ic_s3_trading_power {
+	background-position: -854px 0;
+	width: 18px;
+	height: 20px;
+}
+.ic_s3_trading_soft-commodities {
+	background-position: -902px 0;
+	width: 26px;
+	height: 20px;
+}
+.ic_s3_trading_lpg {
+	background-position: -953px 0;
+	width: 26px;
+	height: 26px;
+}
+.ic_s3_trading_petro-chemicals  {
+	background-position: -999px 0;
+	width: 26px;
+	height: 26px;
+}
+
+.ic_s3_trading_bunkering-maritime {
+  background-position: -1041px 0;
+    height: 28px;
+    width: 26px;
+}
+
+
+
+a:hover .ic_s3_assets_biofuel-refinery, .active .ic_s3_assets_biofuel-refinery {
+	background-position: 0 -40px;
+}
+a:hover .ic_s3_assets_coal-mining, .active .ic_s3_assets_coal-mining {
+	background-position: -52px -40px;
+}
+a:hover .ic_s3_assets_infrastructure-and-logistics, .active .ic_s3_assets_infrastructure-and-logistics {
+	background-position: -106px -40px;
+}
+a:hover .ic_s3_assets_upstream-oil-and-gas, .active .ic_s3_assets_upstream-oil-and-gas {
+	background-position: -160px -40px;
+}
+a:hover .ic_s3_trading_base-metals, .active .ic_s3_trading_base-metals {
+	background-position: -212px -40px;
+}
+a:hover .ic_s3_trading_biofuels, .active .ic_s3_trading_biofuels {
+	background-position: -268px -40px;
+}
+a:hover .ic_s3_trading_coal, .active .ic_s3_trading_coal {
+	background-position: -317px -40px;
+}
+a:hover .ic_s3_trading_crude-oil, .active .ic_s3_trading_crude-oil {
+	background-position: -379px -40px;
+}
+a:hover .ic_s3_trading_dry-bulk, .active .ic_s3_trading_dry-bulk {
+	background-position: -422px -40px;
+}
+a:hover .ic_s3_trading_environmental-markets, .active .ic_s3_trading_environmental-markets {
+	background-position: -474px -40px;
+}
+a:hover .ic_s3_trading_fuel-oil, .active .ic_s3_trading_fuel-oil {
+	background-position: -535px -40px;
+}
+a:hover .ic_s3_trading_gasoline-naphtha, .active .ic_s3_trading_gasoline-naphtha {
+	background-position: -589px -40px;
+}
+a:hover .ic_s3_trading_iron-ore, .active .ic_s3_trading_iron-ore {
+	background-position: -639px -40px;
+}
+a:hover .ic_s3_trading_lng, .active .ic_s3_trading_lng {
+	background-position: -698px -40px;
+}
+a:hover .ic_s3_trading_middle-distillates, .active .ic_s3_trading_middle-distillates {
+	background-position: -761px -40px;
+}
+a:hover .ic_s3_trading_natural-gas, .active .ic_s3_trading_natural-gas {
+	background-position: -809px -40px;
+}
+a:hover .ic_s3_trading_power, .active .ic_s3_trading_power {
+	background-position: -854px -40px;
+}
+a:hover .ic_s3_trading_soft-commodities, .active .ic_s3_trading_soft-commodities {
+	background-position: -902px -40px;
+}
+a:hover .ic_s3_trading_lpg, .active .ic_s3_trading_lpg {
+	background-position: -953px -39px;
+}
+a:hover .ic_s3_trading_petro-chemicals , .active .ic_s3_trading_petro-chemicals  {
+	background-position: -999px -40px;
+}
+
+a:hover .ic_s3_trading_bunkering-maritime , .active .ic_s3_trading_bunkering-maritime  {
+	background-position: -1041px -38px;
+}
+
+
+
+.ic_s1_assets {
+	background-position: 0 0;
+	width: 33px;
+	height: 33px;
+}
+.ic_s1_assets_biofuel-refinery {
+	background-position: -63px 0;
+	width: 37px;
+	height: 33px;
+}
+.ic_s1_assets_coal-mining {
+	background-position: -130px 0;
+	width: 40px;
+	height: 33px;
+}
+.ic_s1_assets_infrastructure-logistics {
+	background-position: -200px 0;
+	width: 45px;
+	height: 33px;
+}
+.ic_s1_assets_upstream-oil-gas {
+	background-position: -275px 0;
+	width: 31px;
+	height: 33px;
+}
+.ic_s1_trading {
+	background-position: -336px 0;
+	width: 30px;
+	height: 33px;
+}
+.ic_s1_trading_biofuels {
+	background-position: -396px 0;
+	width: 21px;
+	height: 33px;
+}
+.ic_s1_trading_coal {
+	background-position: -447px 0;
+	width: 59px;
+	height: 33px;
+}
+.ic_s1_trading_crude-oil {
+	background-position: -536px 0;
+	width: 21px;
+	height: 33px;
+}
+.ic_s1_trading_dry-bulk {
+	background-position: -587px 0;
+	width: 33px;
+	height: 33px;
+}
+.ic_s1_trading_environmental-markets {
+	background-position: -650px 0;
+	width: 48px;
+	height: 33px;
+}
+.ic_s1_trading_fuel-oil {
+	background-position: -728px 0;
+	width: 38px;
+	height: 33px;
+}
+.ic_s1_trading_gasoline-naphtha {
+	background-position: -796px 0;
+	width: 31px;
+	height: 33px;
+}
+.ic_s1_trading_iron-ore {
+	background-position: -857px 0;
+	width: 56px;
+	height: 33px;
+}
+.ic_s1_trading_lng {
+	background-position: -943px 0;
+	width: 52px;
+	height: 33px;
+}
+.ic_s1_trading_middle-distillates {
+	background-position: -1025px 0;
+	width: 27px;
+	height: 33px;
+}
+.ic_s1_trading_natural-gas {
+	background-position: -1082px 0;
+	width: 21px;
+	height: 33px;
+}
+.ic_s1_trading_power {
+	background-position: -1133px 0;
+	width: 30px;
+	height: 33px;
+}
+.ic_s1_trading_soft-commodities {
+	background-position: -1193px 0;
+	width: 41px;
+	height: 33px;
+}
+.ic_s1_trading_base-metals {
+	background-position: -1264px 0;
+	width: 34px;
+	height: 33px;
+}
+.ic_s1_trading_lpg {
+	background-position: -1321px 0;
+	width: 34px;
+	height: 33px;
+}
+.ic_s1_trading_petro-chemicals {
+	background-position: -1377px 0;
+	width: 34px;
+	height: 33px;
+}
+
+.ic_s1_trading_bunkering-maritime {
+	background-position: -1423px 0;
+	width: 29px;
+	height: 33px;
+}
+
+.keyfact img.ic_founded {
+	background: url(../img/icons/icons_sprite_20-20.png) 0 0;
+}
+.keyfact img.ic_countries {
+	background: url(../img/icons/icons_sprite_20-20.png) -30px 0;
+}
+.keyfact img.ic_trading {
+	background: url(../img/icons/icons_sprite_20-20.png) -60px 0;
+}
+.keyfact img.ic_graph {
+	background: url(../img/icons/icons_sprite_20-20.png) -90px 0;
+}
+.sprite-about-us_business-development {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 0;
+	width: 19px;
+	height: 20px;
+}
+.sprite-about-us_financials-and-performance {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -45px;
+	width: 19px;
+	height: 20px;
+}
+.sprite-about-us_logistics {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -90px;
+	width: 22px;
+	height: 20px;
+}
+.sprite-about-us_origination {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -135px;
+	width: 23px;
+	height: 20px;
+}
+.sprite-about-us_our-activity {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -180px;
+	width: 23px;
+	height: 20px;
+}
+.sprite-about-us_our-story {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -225px;
+	width: 21px;
+	height: 20px;
+}
+.sprite-about-us_partnership-investment {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -270px;
+	width: 22px;
+	height: 20px;
+}
+.sprite-about-us_responsibility {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -315px;
+	width: 22px;
+	height: 20px;
+}
+.sprite-about-us_risk-management {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -360px;
+	width: 19px;
+	height: 20px;
+}
+.sprite-about-us_structured-finance {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -405px;
+	width: 13px;
+	height: 20px;
+}
+.sprite-assets_all {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -450px;
+	width: 20px;
+	height: 20px;
+}
+.sprite-assets_biofuel-refinery {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -495px;
+	width: 20px;
+	height: 20px;
+}
+.sprite-assets_coal-mining {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -540px;
+	width: 20px;
+	height: 20px;
+}
+.sprite-assets_infrastructure-and-logistics {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -585px;
+	width: 22px;
+	height: 20px;
+}
+.sprite-assets_upstream-oil-and-gas {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -630px;
+	width: 17px;
+	height: 20px;
+}
+.sprite-community_charitable-sponsorship {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -675px;
+	width: 21px;
+	height: 20px;
+}
+.sprite-community_corporate-sponsorship {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -720px;
+	width: 21px;
+	height: 20px;
+}
+.sprite-community_educational-sponsorship {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -765px;
+	width: 22px;
+	height: 20px;
+}
+.sprite-community_environmental-sponsorship {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -810px;
+	width: 18px;
+	height: 20px;
+}
+.sprite-contact-us_office {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -855px;
+	width: 16px;
+	height: 20px;
+}
+.sprite-contact-us_worldwide {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -900px;
+	width: 15px;
+	height: 20px;
+}
+.sprite-media-room_business-news {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -945px;
+	width: 16px;
+	height: 20px;
+}
+.sprite-media-room_community-news {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -990px;
+	width: 17px;
+	height: 20px;
+}
+.sprite-media-room_documents-and-downloads {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1035px;
+	width: 14px;
+	height: 20px;
+}
+.sprite-media-room_videos {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1080px;
+	width: 20px;
+	height: 20px;
+}
+.sprite-other_quotation {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1125px;
+	width: 15px;
+	height: 20px;
+}
+.sprite-other_time {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1170px;
+	width: 19px;
+	height: 20px;
+}
+.sprite-people_applying {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1215px;
+	width: 15px;
+	height: 20px;
+}
+.sprite-people_graduates {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1260px;
+	width: 22px;
+	height: 20px;
+}
+.sprite-people_vacancies {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1305px;
+	width: 18px;
+	height: 20px;
+}
+.sprite-people_working-at-mercuria {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1350px;
+	width: 22px;
+	height: 20px;
+}
+.sprite-trading_base-metals {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1395px;
+	width: 19px;
+	height: 20px;
+}
+.sprite-trading_biofuels {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1440px;
+	width: 13px;
+	height: 20px;
+}
+.sprite-trading_coal {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1485px;
+	width: 23px;
+	height: 20px;
+}
+.sprite-trading_crude-oil {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1530px;
+	width: 12px;
+	height: 20px;
+}
+.sprite-trading_dry-bulk {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1575px;
+	width: 19px;
+	height: 20px;
+}
+.sprite-trading_environmental-markets {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1620px;
+	width: 22px;
+	height: 20px;
+}
+.sprite-trading_fuel-oil {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1665px;
+	width: 23px;
+	height: 20px;
+}
+.sprite-trading_gasoline-and-naphtha {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1710px;
+	width: 18px;
+	height: 20px;
+}
+.sprite-trading_iron-ore {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1755px;
+	width: 23px;
+	height: 20px;
+}
+.sprite-trading_lng {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1800px;
+	width: 23px;
+	height: 20px;
+}
+.sprite-trading_middle-distillates {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1845px;
+	width: 18px;
+	height: 20px;
+}
+.sprite-trading_natural-gas {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1890px;
+	width: 12px;
+	height: 20px;
+}
+.sprite-trading_power {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: 0 -1935px;
+	width: 18px;
+	height: 20px;
+}
+.sprite-trading_soft-commodities {
+	background: url(../../../administration/img/icons/icons_sprite_20-20.png);
+	background-position: -48px 0;
+	width: 22px;
+	height: 20px;
+}
+HTML {
+	_background: url(../../../../../../images/trans.html) no-repeat fixed;
+}
+.bgstretcher-area {
+	text-align: left;
+}
+.bgstretcher, .bgstretcher UL, .bgstretcher UL LI {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bgstretcher UL, .bgstretcher UL LI {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.bgstretcher {
+	background: black;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	_position: absolute;
+/*IE6 doesn't support fixed positioning*/
+	top: 0;
+	left: 0;
+}
+
+.media-room-landing .fl p a{
+  	background:none;
+    padding:0
+}
+
+.map-wrapper{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.content .column.fl .continents h3, .content .column.fl a.title {
+    padding-right: 15px;
+}
+
+.about-us-landing .column.fl .type_fl h2{
+  margin-left:3px
+}
+
+
+
+
+
+/***** START JIM'S **********************************************************/
+/****************************************************************************/
+
+
+/*** MISC ADJUSTMENTS ***/
+
+
+/* Fix 1px difference in map height. OVER-RIDES map.css line 11 */
+#map-viewport {
+	height:311px!important;
+}
+/* And Fix for iPad's nuances. OVER-RIDES map.css line 16 */
+.ipad #map-nav {
+	border-bottom:none!important;
+}
+
+
+/* Now our asset finder's static not fixed, lets do the dropdown to match. OVER-RIDES ui.selectmenu.css line 88 */
+#rightColumnProductSelect-menu {
+	position: absolute!important;
+}
+
+
+
+/* Remove focus glow completely on asset finder */
+.jspScrollable:focus, .jspContainer:focus {
+	outline: none;
+}
+
+
+
+
+/*** iOS DEVICES ***/
+
+
+body.ipad  {
+	background-image: -webkit-linear-gradient(top, #eeeeee 0%, #f8f8f8 300px)!important;
+}
+
+
+/** RETINA BUSINESS **/
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+screen and (max-moz-device-pixel-ratio: 2) {
+
+
+	/* Loads retina images for iPad */
+	.keyfactimg {
+	    background-image: url(../img/icons_sprite_20-20-doubled.png);
+	    -webkit-background-size: 71px auto;
+	}
+
+
+
+
+	/* on iPhone, prevent fixed positioning of sidebar */
+	.iphone .sidebar.n2 {
+		position:absolute!important;
+		margin: 104px 0px 0px 744px!important;
+		left:0;
+		top:0;
+	}
+
+
+
+	.iphone .header {
+		position:absolute;
+	}
+
+
+
+
+	/* Enables touch scrolling of asset finder on touch */
+
+	.jspContainer {
+		overflow-x:hidden;
+		overflow-y:auto;
+		-webkit-overflow-scrolling:touch;
+	}
+
+	.jspVerticalBar {
+		visibility:hidden;
+	}
+
+
+	/* For a sharper image, loads the hi-res map even in zoomed-out mode on iPad */
+	.ipad #map-canvas {
+		background-image: url("../sk/img/map_zoomed_background_standard5e1f.jpg?v=2");
+		-webkit-background-size: 1440px auto;
+	}
+
+	.ipad #map.zoom #map-canvas {
+		-webkit-background-size: 4320px auto;
+
+	}
+	.ipad #map:not(.night).zoom #map-canvas {
+		background-image: url("../sk/img/map_zoomed_background_standard5e1f.jpg?v=2")!important;
+		-webkit-background-size: 4320px auto;
+	}
+
+
+}
+
+/***** END JIM'S **********************************************************/
+/****************************************************************************/
+
+
+.events-registration-form .item label, .financial-information .item label, .financial-information .item-last label {
+    display: block;
+    font-size: 14px;
+    line-height: 1.15;
+    width: 600px;
+    padding-bottom:5px
+}
+
+.financial-information .content .column div.item, .events-registration-form .content .column div.item {
+    margin-bottom: 0;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.events-registration-form .content .column input.item, .financial-information .content .column input.item  {
+    margin-bottom: 0;
+}
+
+
+.events-registration-form .item input, .financial-information .item input  {
+    border: 1px solid #D0D2D3;
+    color: #000000;
+    height: 30px;
+   /* line-height: 30px;  */
+    padding: 0 6px;
+    width: 358px;
+    margin-bottom:5px;
+    background-color : #fff;
+}
+
+.events-registration-form .item input.error, .financial-information .item input.error  {
+    background: url("../img/input-error.png") no-repeat scroll right center transparent;
+    border: 2px solid #29bc28;
+    color: #DB0D15;
+    background-color : #fff;
+}
+
+
+#phone-code {
+  width: 58px;
+  float: left;
+  padding: 0 10px;
+}
+
+#phone-number{
+ float: left;
+    margin-left: 10px;
+    width: 260px;
+    padding: 0 10px;
+}
+
+
+.financial-information form {
+    padding-bottom: 70px;
+}
+
+#contactformsubmit{
+  margin-top: 20px;
+}
+
+.financial-information .login{
+ font-size: 14px;
+ float:left;
+ margin:10px 0;
+}
+
+.financial-information .item-last{
+  margin:15px 0;
+  font-size:14px;
+}
+
+.error-message {
+ font-size: 15px;
+  color: #DB0D15;
+}
+
+.financial-information .error-message {
+ font-size: 15px;
+  color: #29bc28;
+}
+
+
+#agreed {
+
+  margin-left:0;
+   margin-top:-3px
+}
+
+#agreed.error_tc {
+ outline: 1px solid #DB0D15;
+}
+
+
+.smtpErrors {
+  display:none;
+}
+
+
+.corporate-responsibility-block #dd_assets ul li a {
+  font-weight: normal;
+}
+
+.corporate-responsibility-block #dd_assets ul li a.active {
+    color: #5F5E5E !important;
+}
+
+.corporate-responsibility-block #dd_assets h2.subtitle {
+    font-weight: normal;
+}
+
+.corporate-responsibility-block #dd_assets ul {
+    list-style-position: inside!important;
+    list-style-type: disc!important;
+}
+
+.events-registration-form .item select {
+    background-color: #FFFFFF;
+    border: 1px solid #D0D2D3;
+    color: #000000;
+    height: 20px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    padding-left:0px;
+    width: 372px;
+}
+
+
+
+
+.team-member .item-list li.views-row {
+  float:left;
+  width:170px;
+}
+
+.team-member h1.title {
+  padding-bottom:30px;
+}
+
+.team-member .item-list li.views-row h2 a {
+
+    font-family: "FrutigerLTW01-55Roman";
+    font-size: 15px;
+    line-height: 0.95em;
+    margin-bottom: 13px;
+    padding-bottom: 13px;
+    position: relative;
+    color:#5f5e5e;
+
+}
+
+.team-member .item-list li.views-row h2 a:hover {
+
+    color:#db0d15;
+
+}
+
+
+.team-member .item-list li.views-row h2 {
+
+    font-family: "FrutigerLTW01-55Roman";
+    font-size: 15px;
+    line-height: 0.95em;
+    margin-bottom: 13px;
+    padding-bottom: 13px;
+    padding-top: 8px;
+    position: relative;
+
+}
+
+
+.team-member .main-content p {
+    margin-bottom: 15px;
+}
+
+.team-member .main-content p {
+    font-size: 1.5em;
+    color: #5f5e5e;
+    line-height: 1.35;
+}
+
+ .team-member .item-list li.views-row h2 a.active {
+    color:#db0d15;
+}
+
+.team-member .back-link {
+
+  clear:both;
+  padding-bottom: 60px;
+    padding-top: 10px;
+}
+
+.team-member .back-link a{
+font-size:1.5em;
+    color:#5f5e5e;
+    background: url("../img/arrow_gray_left.png") no-repeat scroll 0 4px rgba(0, 0, 0, 0);
+
+    padding-bottom: 3px;
+    padding-left: 11px;
+    display: inline-block;
+}
+
+.team-member .back-link a:hover{
+     background: url("../img/arrow_red_left.png") no-repeat scroll 0 4px rgba(0, 0, 0, 0);
+    color:#db0d15;
+}
+
+
+.financial-information .item input.file {
+    background-color: transparent ;
+    border:  none;
+    color: #000000;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    padding: 0;
+    width: 358px;
+}
+
+.financial-information .item i {
+    background-color: transparent ;
+    border:  none;
+    height: 15px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    width: 358px;
+    font-size:12px;
+}
+
+iframe {
+ /* height:500px!important; */
+}
+
+.hiddenItem {
+  display:none;
+}
+
+.financial-information .content .column div.item2 {
+    margin-bottom: 0;
+    margin-top: 15px;
+    overflow: visible;
+}
+
+
+.financial-information .item2 label {
+    display: block;
+    font-size: 14px;
+    line-height: 1.15;
+    padding-bottom: 5px;
+}
+
+.field_item_mobility, .field_item_location_sought, .field_item_department_sought {
+  width:300px!important;
+}
+
+.checkbox-input input{
+    vertical-align: baseline!important;
+}
+
+.departments-link{
+
+    font-size: 14px;
+    line-height: 1.15;
+    padding-bottom: 5px;
+  color:#db0d15;
+}
+
+label a {
+
+  color:#db0d15;
+}
+
+.myselectX {
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(../../../../../../../tinypic.com/images/goodbye.jpg), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 20px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+}
+
+select#soflow-color {
+   color: #fff;
+   background-image: url(../../../../../../../tinypic.com/images/goodbye.jpg), -webkit-linear-gradient(#779126, #779126 40%, #779126);
+   background-color: #779126;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   padding-left: 15px;
+}
+
+.financial-information .item span, .financial-information .item2 span{
+ font-size: 14px;
+}
+
+.form-entry label {
+  font-weight: bold;
+}
+
+.generic-text-page .back-link a {
+    background: url("../img/arrow_red_left.png") no-repeat scroll 0 4px rgba(0, 0, 0, 0);
+    color: #5f5e5e;
+    display: inline-block;
+    font-size: 13px;
+    padding-bottom: 3px;
+    padding-left: 11px;
+    font-family: "Frutiger LT W01 65 Bold";
+}
+
+.inancial-information selectXXX {
+color: #5f5e5e;
+font-size: 14px;
+font-family: arial, tahoma, verdana, sans-serif;
+margin: 0px;
+width:372px;
+border: 1px solid #d0d2d3;
+height:38px;
+color: #5F5E5E!important;
+background: url('../../../../../../../mercuria-dev.creativeleaplabs.com/sites/all/themes/mercuria/assets/css/application-form/images/ui-bg_glass_75_fff_1x400.png') no-repeat right #ddd;
+}
+
+select optionXX {
+font-weight: normal;
+display: block;
+padding: 2px 2px 0px 3px;
+white-space: pre;
+min-height: 1.2em;
+color: #5F5E5E!important;
+}
+
+.application-form-entry .tabs {
+  display:none;
+}
+
+.generic-text-page .back-link a {
+  color:#da0c14;
+}
+
+
+.financial-information .item2 input.error {
+    background: url("../img/input-error.png") no-repeat scroll right center #fff;
+    border: 2px solid #29bc28;
+    color: #db0d15;
+    outline : 2px solid #29bc28;
+}
+
+.ui-multiselect-checkboxes {
+  height:100%!important;
+  max-height:175px!important;
+}
+
+.error button {
+  border: 2px solid #29bc28!important;
+}
+
+.file-error{
+  width:371px;
+  border: 2px solid #29bc28!important;
+}
+
+.whiteText {
+  color: #fff;
+}
+.blackText {
+  color: #5f5e5e;
+}
+
+ .content .column.fl form h2.subtitle {
+   margin: 20px 0 0 !important;
+}
+
+
+
+.datepick-ctrl,
+.datepick-cmd-today {
+  display: none;
+}
+.datepick-cmd-prev,
+.datepick-cmd-next {
+  position: absolute;
+  top: 11px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  font: 0/0 a;
+  color: transparent;
+  text-decoration: none;
+  border-color: transparent #b2b2b2;
+  border-style: dashed solid;
+}
+.datepick-cmd-prev:hover,
+.datepick-cmd-next:hover {
+  border-color: transparent #2fb856;
+}
+.datepick-cmd-prev {
+  left: 10px;
+  border-width: 6px 10px 6px 0;
+}
+.datepick-cmd-next {
+  right: 10px;
+  border-width: 6px 0 6px 10px;
+}
+.datepick-month-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, helvetica, sans-serif;
+  line-height: 20px;
+  padding: 0 35px 6px;
+  color: #2fb856;
+  font-size: 13px;
+}
+.datepick table {
+  width: 100%;
+  margin: 0;
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
+.datepick table td,
+.datepick table th {
+  padding: 0;
+  border: 1px solid #fff;
+  font-weight: normal;
+  text-align: center;
+}
+.datepick table td {
+  background: #f3f3f3 !important;
+}
+.datepick table th {
+  display: none;
+}
+.datepick table a {
+  background: #d7d7d7;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  line-height: 26px;
+}
+.datepick table .datepick-selected,
+.datepick table .datepick-highlight {
+  background: #229c45;
+  color: #ffffff;
+}
+
+.ui-widget-header {
+    color: #5f5e5e;
+    font-weight: bold;
+}
+
+.ui-datepicker-calendar .ui-state-hover, .ui-datepicker-calendar .ui-widget-content .ui-state-hover, .ui-datepicker-calendar  .ui-widget-header .ui-state-hover, .ui-datepicker-calendar  .ui-state-focus, .ui-datepicker-calendar  .ui-widget-content .ui-state-focus, .ui-datepicker-calendar .ui-widget-header .ui-state-focus {
+    background: url("images/ui-bg_glass_75_fff_1x400.html") repeat-x scroll 50% 50% #fff;
+    border: 1px solid red!important;
+    color: red!important;
+    font-weight: normal;
+}
+
+#menu-social{position: absolute; top: 10px; right: 50px; font: 0/0 a; color: transparent;}
+#menu-social a{display: inline-block; vertical-align: middle; width: 30px; height: 30px; text-decoration: none; background: url('../img/social.png') 0 0 no-repeat; margin-left: 7px;}
+#menu-social .facebook:hover{background-position: -50px 0;}
+#menu-social .twitter{background-position: 0 -50px;}
+#menu-social .twitter:hover{background-position: -50px -50px;}
+#menu-social .linkedin{background-position: 0 -100px;}
+#menu-social .linkedin:hover{background-position: -50px -100px;}
+#menu-social .google{background-position: 0 -150px;}
+#menu-social .google:hover{background-position: -50px -150px;}
+#menu-multilanguage{position: absolute; top: 13px; right: 0; font-size: 14px; color: #7e7c7c;}
+#menu-multilanguage a{color: #db0d15; font-weight: bold}
+
+
+.financial-information table {
+    font-size: 1.5em;
+    line-height: 1.35;                         
+}
+
+.financial-information .main-content p {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    line-height: 1.35;
+}
+
+
+.financial-information .table-header {
+    border-bottom: 1px solid #c5c6c7;
+    color: #db0d15;
+    font-family: "Frutiger LT W01 65 Bold";
+    font-size: 17px;
+    margin-bottom: 3px;
+    margin-top: 18px;
+}
+
+
+.financial-information .content p.highlight {
+  margin-bottom: 20px;
+}
+
+
+.financial-information .content .back-link {
+    padding-left: 12px;
+    font-family: "Frutiger LT W01 65 Bold";
+    margin-top: 1px;
+    background: rgba(0, 0, 0, 0) url("../img/arrow_red_left.png") no-repeat scroll 0 4px;
+    color: #db0d15;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 10px;
+    padding-bottom: 3px;
+    padding-right: 9px;
+}
+
+
+.financial-information .print-link {
+    color: #db0d15;
+    display: inline-block;
+    font-family: "Frutiger LT W01 65 Bold";
+    margin-top: 10px;
+    padding-bottom: 3px;
+    padding-right: 9px;
+    font-size: 1.5em;
+    line-height: 1.35;
+    margin-bottom: 15px;
+}
+
+.financial-information table.AdjScaleTable {
+    font-size: 11px;
+    line-height: 1.35;
+}
+
+
+.financial-information table.AdjScaleTable td{
+  vertical-align: text-top;
+}

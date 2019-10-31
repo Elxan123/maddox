@@ -19,15 +19,15 @@
                         <p style="font-size: 19px; font-family: Arial;">
                             MADDOX is trading the entire range of petroleum products deriving from the processing of crude oil.
                             <br>
-                            •	LIGHT ENDS (LPG, Naphtha, Gasoline, Components)
+                            <i style="color: red" class="fas fa-burn"></i>	LIGHT ENDS (LPG, Naphtha, Gasoline, Components)
                             <br>
-                            •	MIDDLE DISTILLATES (Diesel, Heating Oil, Bunker Gasoil – DMA, Jet Fuel – Aviation Kerosin)
+                            <i style="color: red"  class="fas fa-gas-pump fa-xs"></i>  	MIDDLE DISTILLATES (Diesel, Heating Oil, Bunker Gasoil – DMA, Jet Fuel – Aviation Kerosin)
                             <br>
-                            •	HEAVY FUEL (VLSFO, LSFO, HSFO, Cutter)
+                            <i style="color: red"  class="fas fa-vial fa-xs"></i>	HEAVY FUEL (VLSFO, LSFO, HSFO, Cutter)
                             <br>
-                            •	FEEDSTOCKS (Straight Run FuelOil, VGO)
+                            <i style="color: red"  class="fas fa-vials fa-xs"></i>	FEEDSTOCKS (Straight Run FuelOil, VGO)
                             <br>
-                            •	OTHERS
+                            <i style="color: red"  class="fas fa-truck-moving fa-xs"></i>	OTHERS
                             <br>
                             Our specialized products trading team is sourcing the physical molecules through long-term arrangements as well as spot opportunities. By utilizing our available logistical infrastructure MADDOX is supplying end-consumer markets indirectly or directly through our own subsidiaries but also is an active player in the global arbitrage business.
 
