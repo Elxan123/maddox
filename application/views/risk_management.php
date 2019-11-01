@@ -23,7 +23,7 @@
                         <p style="font-size: 19px; font-family: Arial;">MADDOX is a very well recognized oil trader in our core regions with xxxx mbbls of crude oil and xxx m mtons of refined oil products traded in 2018.
                             Our Group’s turnover reached for 2018 USD 6.3 billion.
                         </p>
-                        <p style="font-size: 19px; font-family: Arial;">The financial performance of the group underlines the success story of Maddox and what has been achieved by the entire Maddox family within the short period since inception. </p>
+                        <p style=" font-size: 19px; font-family: Arial;">The financial performance of the group underlines the success story of Maddox and what has been achieved by the entire Maddox family within the short period since inception. </p>
                         <h2><a href="">Risk Management</a></h2>
                         <p style="font-size: 19px; font-family: Arial;">For MADDOX Risk-Management is one of its key success factors. The management of market fluctuations, financial and credit risks as well as the operational risk associated with the transport of dangerous goods has top priority within our Group.</p>
                         <p style="font-size: 19px; font-family: Arial;">A profound team of risk-management experts are continuously analysing, monitoring, reporting and managing our market and financial risks. Supported by a state of the art ETRM-System the automated processes allow us to control these risks on all levels of the organisation. </p>

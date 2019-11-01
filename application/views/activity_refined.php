@@ -16,7 +16,7 @@
 
                     <div class="service-details-text">
                         <h2><a href="#">Refined Petroleum Products</a></h2>
-                        <p style="font-size: 19px; font-family: Arial;">
+                        <p style="line-height: 30px; font-size: 19px; font-family: Arial;">
                             MADDOX is trading the entire range of petroleum products deriving from the processing of crude oil.
                             <br>
                             <i style="color: red" class="fas fa-burn"></i>	LIGHT ENDS (LPG, Naphtha, Gasoline, Components)

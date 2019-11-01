@@ -66,9 +66,9 @@ h4{text-align:center;}
     position:absolute;
     width:40px;
     height:40px;
-    background-color:#1abc9c;
+    background-color:#fc5508;
     border-radius:50%;
-    box-shadow: 0 0 0 6px rgba(26, 188, 156,0.4);
+    box-shadow: 0 0 0 5px #fca808;
 }
 
 /*position the circle icons on the timeline*/
@@ -104,7 +104,7 @@ h4{text-align:center;}
 
 .content h3{
     font-weight:900;
-    color:#16a085;
+    color:#fc5508;
 }
 
 .content p{
@@ -115,16 +115,17 @@ h4{text-align:center;}
 
 /*styling all to next step links*/
 .timeline ul li > .next{
-    background:#f1c40f;
+    background:#203336;
     position:absolute;
     border-radius:16px;
-    box-shadow: 0 0 0 3px rgba(241, 196, 15,0.5);
+    box-shadow: 0 0 0 3px #000000ab;
     padding:6px 12px;
+    padding-left: 9px
 }
 
 .next > h4 > a:link, .next > h4 > a:visited {color:white;}
 
-.timeline ul li > .next:hover{background:#f39c12;}
+.timeline ul li > .next:hover{background:#fc5508;}
 
 /*positioning the next step links depending on which side*/
 .timeline ul li:nth-child(odd) > .next{

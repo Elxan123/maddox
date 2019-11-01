@@ -106,7 +106,7 @@ img { vertical-align:middle; }
 /* RIGHT COLUMN */
 .mapNodesRightColumn.active,
 .mapNodesRightColumn.active h3,
-.mapNodesRightColumn.active a { color:#fefefe }
+.mapNodesRightColumn.active a { color:#ff6900 }
 
 
 /*.active { text-decoration:none; font-weight:bold; color:#000; cursor:default; }*/

@@ -18,18 +18,33 @@
                     <div class="service-details-text">
 
 
-                        <h1 style="text-align: center;"><a href="#">Our History</a></h1>
-                        <p style="font-size: 19px; font-family: Arial;">MADDOX is a privately-owned company trading physical oil and oil-related financial derivatives.
-                            Since inception it is our vision is to establish an international oil trading firm, offering the best service, attracting the best talent in the industry and maintaining exemplary corporate governance.
-                            <br><br>
 
+                        <div class="col-sm-5">
+                            <div class="about-us-thumb">
+                                <div class="about-img-circle">
+                                    <img src="<?php echo base_url('') ?>/public/img/about.jpg" alt="">
+                                    <div class="vedio-button">
+                                        <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="mfp-iframe vedio-play"><i class="fa fa-play" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <h1 style="text-align: center;"><a href="#">Our History</a></h1>
+                            <p style="font-size: 19px; font-family: Arial;">MADDOX is a privately-owned company trading physical oil and oil-related financial derivatives.
+                                Since inception it is our vision is to establish an international oil trading firm, offering the best service, attracting the best talent in the industry and maintaining exemplary corporate governance.
+                                <br><br>
 
-                        <div class="timeline">
+                        </div>
+                        <div style="margin: 0px!important; padding: 0;"  class="col-sm-7 timeline">
                             <ul>
+
                                 <li>
                                     <div class="content">
                                         <h3 id="heading1">September 2012</h3>
-                                        <p>Maddox DMCC was established .  </p>
+                                        <p>Maddox SA was established January 2013 as formerly named PS-Trading.</p>
                                     </div>
                                     <div class="next">
                                         <h4><a href="#heading1">To step 2</a></h4>
@@ -100,14 +115,13 @@
                                 <div style="clear:both;"></div>
                             </ul>
                         </div>
-<!--                        das
 
 
 
 
 
 
--->
+
 
 <!--                         //   •	Maddox DMCC was established September 2012 <br>-->
 <!--                          //  •	Maddox SA was established January 2013 as formerly named PS-Trading <br>-->
